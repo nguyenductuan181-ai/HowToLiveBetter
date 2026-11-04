@@ -11,7 +11,7 @@
 
 | Sản phẩm | Đường dẫn |
 | --- | --- |
-| EPUB cuối | `dist/HowToLiveBetter-vi.epub` (2,4 MB) |
+| EPUB cuối | `dist/HowToLiveBetter-vi.epub` (2,4 MB), phát hành v1.1.0 |
 | Bản sao tiện dụng | `HowToLiveBetter-vi.epub` ở thư mục gốc |
 | Nguồn dịch | `vi/book/` (34 chương), `vi/docs/` (9 bài), `vi/front/` |
 | Manifest | `vi/manifest.json` — 34/34 chương, 772/772 mục, coverage 1.0 |
