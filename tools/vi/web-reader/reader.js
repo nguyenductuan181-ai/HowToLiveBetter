@@ -443,7 +443,8 @@
     else if (k === "Home" && !paged) { var c1 = scroller(); if (c1) c1.scrollTop = 0; }
     else if (k === "End" && !paged) { var c2 = scroller(); if (c2) c2.scrollTop = c2.scrollHeight; }
     else handled = false;
-    if (handled && e.cancelable) e.preventDefault();
+    // key events relayed from the book iframe come through a passive listener and cannot be cancelled
+    if (handled && e.cancelable && e.view === window) e.preventDefault();
   }
   document.addEventListener("keydown", onKey);
 
