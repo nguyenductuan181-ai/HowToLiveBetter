@@ -11,15 +11,16 @@
   function load(k, d) { try { var v = localStorage.getItem(KEY + k); return v === null ? d : v; } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(KEY + k, v); } catch (e) { /* private mode */ } }
 
-  var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  var darkMq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : { matches: false };
   var state = {
     font: Math.min(180, Math.max(70, parseInt(load("font", "100"), 10) || 100)),
-    theme: load("theme", prefersDark ? "dark" : "light"),
+    theme: load("theme", "auto"),
     face: load("face", "serif"),
     flow: load("flow", "scrolled"),
     cfi: load("cfi", "")
   };
-  if (["light", "sepia", "dark"].indexOf(state.theme) < 0) state.theme = "light";
+  if (["auto", "light", "sepia", "dark"].indexOf(state.theme) < 0) state.theme = "auto";
+  function eff() { return state.theme === "auto" ? (darkMq.matches ? "dark" : "light") : state.theme; }
   if (["scrolled", "paginated"].indexOf(state.flow) < 0) state.flow = "scrolled";
 
   var book = null, rendition = null, spine = [], tocByHref = {}, tocFull = {}, tocLinks = [];
@@ -97,7 +98,7 @@
     dark: { bg: "#1d2025", fg: "#e3e4e6", link: "#8fbef0", line: "#3a3f47", th: "#2a2e35" }
   };
   function contentCss() {
-    var t = THEMES[state.theme], css = "";
+    var t = THEMES[eff()], css = "";
     css += "html{font-size:" + state.font + "% !important;}";
     css += "html,body{background:" + t.bg + " !important;}";
     if (t.fg) {
@@ -105,7 +106,7 @@
       css += "body *{color:inherit !important;background-color:transparent !important;border-color:" + t.line + " !important;}";
       css += "a,a *{color:" + t.link + " !important;}";
       css += "th{background-color:" + t.th + " !important;}";
-      if (state.theme === "dark") css += "img{opacity:.9;}";
+      if (eff() === "dark") css += "img{opacity:.9;}";
     }
     if (state.face === "sans") {
       css += "body,p,li,td,th,blockquote,.entry-title,h1,h2,h3,h4{font-family:\"Be Vietnam Pro\",\"HTLB Symbols\",Arial,sans-serif !important;}";
@@ -118,6 +119,7 @@
       css += "body.cover-page .cover img{display:inline-block !important;width:auto !important;max-width:100% !important;max-height:" + Math.max(240, sh - 2 * pad) + "px !important;box-shadow:0 8px 30px rgba(0,0,0,.18);}";
     }
     if ($("stage").clientWidth < 600) css += "p,li,.chapter-intro{text-align:left !important;-webkit-hyphens:none;hyphens:none;}";
+    css += "html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}";
     css += "::selection{background:rgba(31,92,138,.28);}";
     return css;
   }
@@ -132,7 +134,11 @@
     el.textContent = contentCss();
   }
   function restyle() {
-    root.setAttribute("data-theme", state.theme);
+    root.setAttribute("data-theme", eff());
+    var dk = eff() === "dark";
+    $("btn-theme").setAttribute("aria-label", dk ? "Chuyển sang nền sáng" : "Chuyển sang nền tối");
+    $("btn-theme").title = dk ? "Nền sáng" : "Nền tối";
+    $("btn-theme").classList.toggle("is-dark", dk);
     root.setAttribute("data-flow", state.flow);
     var meta = document.querySelectorAll('meta[name="theme-color"]');
     Array.prototype.forEach.call(meta, function (m) { m.setAttribute("content", getComputedStyle(root).getPropertyValue("--bg").trim() || "#f7f5f0"); });
@@ -156,6 +162,9 @@
   }
   $("font-dec").onclick = function () { setFont(state.font - 10); };
   $("font-inc").onclick = function () { setFont(state.font + 10); };
+  $("btn-theme").onclick = function () { state.theme = eff() === "dark" ? "light" : "dark"; save("theme", state.theme); restyle(); };
+  var onScheme = function () { if (state.theme === "auto") restyle(); };
+  if (darkMq.addEventListener) darkMq.addEventListener("change", onScheme); else if (darkMq.addListener) darkMq.addListener(onScheme);
   $("theme-seg").onclick = function (e) { var v = e.target.getAttribute("data-theme"); if (v) { state.theme = v; save("theme", v); restyle(); } };
   $("face-seg").onclick = function (e) { var v = e.target.getAttribute("data-face"); if (v) { state.face = v; save("face", v); restyle(); } };
   $("flow-seg").onclick = function (e) {
@@ -247,7 +256,7 @@
       });
     });
     rendition.on("relocated", onRelocated);
-    rendition.on("keyup", onKey);
+    rendition.on("keydown", onKey);
     rendition.on("touchstart", onTouchStart);
     rendition.on("touchend", onTouchEnd);
     rendition.on("click", function () { if (openPanel) hideAll(); });
@@ -321,6 +330,7 @@
       var body = $("toc-list"), r = curLink.getBoundingClientRect(), br = body.getBoundingClientRect();
       if (r.top < br.top || r.bottom > br.bottom) curLink.scrollIntoView({ block: "center" });
     }
+    $("plain-link").href = "/how-to-live-better/doc/" + current.href.replace(/\.xhtml$/, ".html") + (entry ? "#" + entry : "");
     if (resumed) { resumed = false; toast("Đọc tiếp từ chỗ lần trước" + (label ? ": " + label : "")); }
     $("btn-prev").disabled = current.index <= 0 && (state.flow === "scrolled" || loc.atStart);
     $("btn-next").disabled = current.index >= n - 1 && (state.flow === "scrolled" || loc.atEnd);
@@ -377,16 +387,48 @@
   $("edge-prev").onclick = prev;
   $("edge-next").onclick = next;
 
+  function scroller() { return document.querySelector("#viewer .epub-container"); }
+  function scrollBy(dy, smooth) {
+    var c = scroller(); if (!c) return;
+    var max = c.scrollHeight - c.clientHeight;
+    if (dy > 0 && c.scrollTop >= max - 2) { goSection(1); return; }
+    if (dy < 0 && c.scrollTop <= 2) { goSectionEnd(-1); return; }
+    c.scrollBy({ top: dy, behavior: smooth ? "smooth" : "auto" });
+  }
+  function goSectionEnd(delta) {
+    var i = current.index + delta;
+    if (i < 0 || i >= spine.length) return;
+    rendition.display(spine[i].href).then(function () {
+      setTimeout(function () { var c = scroller(); if (c) c.scrollTop = c.scrollHeight; }, 60);
+    });
+  }
   function onKey(e) {
     var t = e.target && e.target.tagName;
-    if (t === "INPUT" || t === "TEXTAREA") return;
+    if (t === "INPUT" || t === "TEXTAREA" || t === "SELECT" || (e.target && e.target.isContentEditable)) return;
+    if ((t === "BUTTON" || t === "A") && (e.key === " " || e.key === "Enter")) return;
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
     if (e.key === "Escape") { hideAll(); return; }
-    if (e.key === "/" && rendition) { show("search-panel"); $("search-input").focus(); return; }
-    if (state.flow !== "paginated") return;
-    if (e.key === "ArrowLeft" || e.key === "PageUp") prev();
-    if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") next();
+    if (!rendition || app.classList.contains("loading")) return;
+    if (openPanel && openPanel.id !== "settings-panel") return;
+    var k = e.key, paged = state.flow === "paginated";
+    var page = (scroller() ? scroller().clientHeight : innerHeight) * 0.88;
+    var handled = true;
+    if (k === "/") { show("search-panel"); $("search-input").focus(); }
+    else if (k === "t" || k === "T") { $("btn-toc").click(); }
+    else if (k === "ArrowRight" || k === "l") { next(); }
+    else if (k === "ArrowLeft" || k === "h") { prev(); }
+    else if (k === "PageDown" || (k === " " && !e.shiftKey)) { if (paged) rendition.next(); else scrollBy(page, true); }
+    else if (k === "PageUp" || (k === " " && e.shiftKey)) { if (paged) rendition.prev(); else scrollBy(-page, true); }
+    else if ((k === "ArrowDown" || k === "j") && !paged) { scrollBy(70, false); }
+    else if ((k === "ArrowUp" || k === "k") && !paged) { scrollBy(-70, false); }
+    else if (k === "ArrowDown" && paged) { rendition.next(); }
+    else if (k === "ArrowUp" && paged) { rendition.prev(); }
+    else if (k === "Home" && !paged) { var c1 = scroller(); if (c1) c1.scrollTop = 0; }
+    else if (k === "End" && !paged) { var c2 = scroller(); if (c2) c2.scrollTop = c2.scrollHeight; }
+    else handled = false;
+    if (handled) e.preventDefault();
   }
-  document.addEventListener("keyup", onKey);
+  document.addEventListener("keydown", onKey);
 
   var touch = null;
   function onTouchStart(e) { var t = e.changedTouches && e.changedTouches[0]; if (t) touch = { x: t.screenX, y: t.screenY, t: Date.now() }; }

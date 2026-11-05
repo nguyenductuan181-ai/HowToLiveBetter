@@ -6,7 +6,8 @@
 //   how-to-live-better/assets/...   → css, js, images, vendored epub.js + JSZip
 // The EPUB itself lives at /HowToLiveBetter-vi.epub and is uploaded separately (see README.md).
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync, copyFileSync, rmSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync, copyFileSync, rmSync, existsSync } from "node:fs";
+import { buildDocs, setDocVersion } from "./docs.mjs";
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -32,4 +33,20 @@ copyFileSync(join(here, "og.jpg"), join(a, "og.jpg"));
 copyFileSync(join(here, "manifest.webmanifest"), join(a, "manifest.webmanifest"));
 copyFileSync(require.resolve("epubjs/dist/epub.min.js"), join(a, "epub.min.js"));
 copyFileSync(require.resolve("jszip/dist/jszip.min.js"), join(a, "jszip.min.js"));
-console.log(`built ${out} (asset version ${v})`);
+
+// plain HTML edition from the EPUB (pass --epub <file>, or set EPUB=<file>)
+const ai = process.argv.indexOf("--epub");
+const epub = ai > -1 ? process.argv[ai + 1] : process.env.EPUB;
+if (!epub || !existsSync(epub)) {
+  console.error("missing EPUB: run with --epub path/to/HowToLiveBetter-vi.epub");
+  process.exit(1);
+}
+const docCss = readFileSync(join(here, "doc.css"));
+setDocVersion(createHash("sha256").update(docCss).digest("hex").slice(0, 10));
+const { pages, assets } = await buildDocs(readFileSync(epub));
+const d = join(out, "how-to-live-better/doc");
+mkdirSync(join(d, "fonts"), { recursive: true });
+for (const [name, html] of Object.entries(pages)) writeFileSync(join(d, name), html);
+for (const [name, buf] of Object.entries(assets)) writeFileSync(join(d, name), buf);
+writeFileSync(join(d, "doc.css"), docCss);
+console.log(`built ${out} (asset version ${v}, ${Object.keys(pages).length} HTML pages)`);
