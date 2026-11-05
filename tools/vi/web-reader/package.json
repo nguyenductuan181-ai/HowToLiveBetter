@@ -1,0 +1,14 @@
+{
+  "name": "htlb-vi-web-reader",
+  "private": true,
+  "type": "module",
+  "description": "Web reader for the Vietnamese EPUB, served at https://sach.thantamtue.vn/how-to-live-better",
+  "scripts": {
+    "build": "node build.mjs",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "epubjs": "0.3.93",
+    "jszip": "3.10.1"
+  }
+}

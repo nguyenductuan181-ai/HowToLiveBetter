@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cẩm nang sống đáng giá · Đọc online</title>
+<meta name="description" content="Đọc online bản tiếng Việt của 《高性价比人生指南》 (HowToLiveBetter): 772 mục lời khuyên về sức khỏe, tiền bạc, pháp luật, gia đình và công việc, mỗi mục ghi chi phí, lợi ích, mức chứng cứ và nguồn.">
+<meta name="theme-color" content="#f7f5f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16181c" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="book">
+<meta property="og:title" content="Cẩm nang sống đáng giá — đọc online">
+<meta property="og:description" content="Đổi ít tiền, thời gian và sức lực lấy nhiều tuổi thọ, tiền bạc và tự do hơn. 34 chương, 772 mục, có nguồn cho từng mục. Đọc ngay trên trình duyệt hoặc tải EPUB.">
+<meta property="og:image" content="https://sach.thantamtue.vn/how-to-live-better/assets/og.jpg">
+<meta property="og:url" content="https://sach.thantamtue.vn/how-to-live-better">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/how-to-live-better/assets/icon.png">
+<link rel="apple-touch-icon" href="/how-to-live-better/assets/icon.png">
+<link rel="stylesheet" href="/how-to-live-better/assets/reader.css?v=__V__">
+</head>
+<body>
+<div id="app" class="loading">
+  <header class="bar top" id="topbar">
+    <button class="icon" id="btn-toc" aria-label="Mục lục" title="Mục lục">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+    </button>
+    <div class="title">
+      <span class="book">Cẩm nang sống đáng giá</span>
+      <span class="chapter" id="chapter-title"></span>
+    </div>
+    <button class="icon" id="btn-search" aria-label="Tìm trong sách" title="Tìm trong sách">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+    </button>
+    <button class="icon" id="btn-settings" aria-label="Cỡ chữ và giao diện" title="Cỡ chữ và giao diện">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 19L8.5 5h1L15 19M5.2 14h7.6"/><path d="M15.5 19l3-8 3 8M16.6 16.3h3.8"/></svg>
+    </button>
+    <button class="icon" id="btn-download" aria-label="Tải EPUB" title="Tải file EPUB">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>
+    </button>
+  </header>
+
+  <main id="stage">
+    <div id="viewer" aria-label="Nội dung sách"></div>
+    <button class="edge prev" id="edge-prev" aria-label="Trang trước"></button>
+    <button class="edge next" id="edge-next" aria-label="Trang sau"></button>
+  </main>
+
+  <footer class="bar bottom">
+    <button class="nav" id="btn-prev"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Trước</span></button>
+    <div class="progress"><div class="track"><div class="fill" id="progress-fill"></div></div><span id="progress-text">&nbsp;</span></div>
+    <button class="nav" id="btn-next"><span>Sau</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+
+  <aside class="drawer left" id="toc-panel" aria-label="Mục lục" hidden>
+    <div class="drawer-head">
+      <h2>Mục lục</h2>
+      <button class="icon" data-close aria-label="Đóng"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="drawer-tools"><input type="search" id="toc-filter" placeholder="Lọc mục lục, ví dụ: bảo hiểm" autocomplete="off" enterkeyhint="search"></div>
+    <nav class="drawer-body" id="toc-list"></nav>
+  </aside>
+
+  <aside class="drawer right" id="search-panel" aria-label="Tìm trong sách" hidden>
+    <div class="drawer-head">
+      <h2>Tìm trong sách</h2>
+      <button class="icon" data-close aria-label="Đóng"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <form class="drawer-tools" id="search-form">
+      <input type="search" id="search-input" placeholder="Gõ có dấu hoặc không dấu" autocomplete="off" enterkeyhint="search">
+      <button type="submit" class="primary">Tìm</button>
+    </form>
+    <div class="drawer-body" id="search-results"><p class="hint">Tìm được cả khi gõ không dấu, ví dụ «bao hiem» sẽ ra «bảo hiểm».</p></div>
+  </aside>
+
+  <div class="popover" id="settings-panel" role="dialog" aria-label="Cỡ chữ và giao diện" hidden>
+    <div class="row">
+      <span class="label">Cỡ chữ</span>
+      <div class="seg">
+        <button id="font-dec" aria-label="Chữ nhỏ hơn">A−</button>
+        <output id="font-val">100%</output>
+        <button id="font-inc" aria-label="Chữ to hơn">A+</button>
+      </div>
+    </div>
+    <div class="row">
+      <span class="label">Nền</span>
+      <div class="seg" id="theme-seg">
+        <button data-theme="light">Sáng</button>
+        <button data-theme="sepia">Vàng</button>
+        <button data-theme="dark">Tối</button>
+      </div>
+    </div>
+    <div class="row">
+      <span class="label">Kiểu chữ</span>
+      <div class="seg" id="face-seg">
+        <button data-face="serif">Có chân</button>
+        <button data-face="sans">Không chân</button>
+      </div>
+    </div>
+    <div class="row">
+      <span class="label">Cách đọc</span>
+      <div class="seg" id="flow-seg">
+        <button data-flow="scrolled">Cuộn</button>
+        <button data-flow="paginated">Lật trang</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="download-panel" role="dialog" aria-label="Tải file EPUB" hidden>
+    <div class="modal-card">
+      <div class="drawer-head">
+        <h2>Tải file EPUB</h2>
+        <button class="icon" data-close aria-label="Đóng"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
+      <p>Trang này đã đọc được cả cuốn sách ngay trên trình duyệt. Nếu muốn đọc trên máy đọc sách hoặc app riêng thì tải file về.</p>
+      <a class="primary big" id="download-link" href="/HowToLiveBetter-vi.epub" download="HowToLiveBetter-vi.epub">Tải HowToLiveBetter-vi.epub (2,6 MB)</a>
+      <p class="inapp" id="inapp-note" hidden>Bạn đang mở trong Zalo, Facebook hoặc Messenger. Các app này thường không tải được file .epub. Bấm nút ⋯ hoặc ⋮ ở góc màn hình, chọn «Mở bằng trình duyệt» rồi tải lại.</p>
+      <ul class="howto">
+        <li><b>iPhone, iPad:</b> tải xong mở app Tệp, chạm giữ file, chọn Chia sẻ rồi chọn Sách.</li>
+        <li><b>Android:</b> cần một app đọc EPUB, ví dụ ReadEra hoặc Lithium.</li>
+        <li><b>Windows:</b> dùng Calibre hoặc Thorium Reader. Trên Mac mở bằng app Sách.</li>
+        <li><b>Kindle:</b> gửi file qua Send to Kindle, Kindle không mở trực tiếp file EPUB.</li>
+        <li><b>Boox, Kobo, PocketBook:</b> chép file vào máy là đọc được.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="overlay" id="loader">
+    <div class="loader-card">
+      <img src="/how-to-live-better/assets/icon.png" alt="" width="72" height="72">
+      <h1>Cẩm nang sống đáng giá</h1>
+      <p id="loader-text">Đang tải sách…</p>
+      <div class="track"><div class="fill" id="loader-fill"></div></div>
+      <div class="loader-actions" id="loader-actions" hidden>
+        <button class="primary" id="btn-retry">Thử lại</button>
+        <a href="/HowToLiveBetter-vi.epub" download>Tải file EPUB</a>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast" hidden></div>
+</div>
+<script src="/how-to-live-better/assets/jszip.min.js?v=3.10.1"></script>
+<script src="/how-to-live-better/assets/epub.min.js?v=0.3.93"></script>
+<script src="/how-to-live-better/assets/reader.js?v=__V__"></script>
+</body>
+</html>
