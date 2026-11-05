@@ -29,6 +29,7 @@ writeFileSync(join(a, "reader.css"), css);
 writeFileSync(join(a, "reader.js"), js);
 copyFileSync(join(here, "icon.png"), join(a, "icon.png"));
 copyFileSync(join(here, "og.jpg"), join(a, "og.jpg"));
+copyFileSync(join(here, "manifest.webmanifest"), join(a, "manifest.webmanifest"));
 copyFileSync(require.resolve("epubjs/dist/epub.min.js"), join(a, "epub.min.js"));
 copyFileSync(require.resolve("jszip/dist/jszip.min.js"), join(a, "jszip.min.js"));
 console.log(`built ${out} (asset version ${v})`);

@@ -225,3 +225,51 @@ svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width:
   .icon { width: 42px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---------- polish ---------- */
+:root { --side: 340px; }
+.bar.top { box-shadow: 0 1px 0 rgba(0, 0, 0, .02); }
+.title .book { font-family: Georgia, "Times New Roman", serif; font-style: italic; letter-spacing: 0; font-size: 12.5px; }
+#btn-toc[aria-pressed="true"] { background: var(--chip); color: var(--accent); }
+#toc-list a.in-chapter { color: var(--accent); }
+#toc-list a.current { color: var(--accent); font-weight: 600; background: color-mix(in srgb, var(--accent) 9%, transparent); box-shadow: inset 3px 0 0 var(--accent); }
+.toast { animation: toast-in .18s ease-out; }
+@keyframes toast-in { from { opacity: 0; transform: translate(-50%, 6px); } to { opacity: 1; transform: translate(-50%, 0); } }
+.drawer { animation: none; }
+.drawer.left:not(.pin) { animation: slide-l .2s ease-out; }
+.drawer.right { animation: slide-r .2s ease-out; }
+@keyframes slide-l { from { transform: translateX(-24px); opacity: .4; } to { transform: none; opacity: 1; } }
+@keyframes slide-r { from { transform: translateX(24px); opacity: .4; } to { transform: none; opacity: 1; } }
+
+/* desktop: search docks under the top bar, beside the text */
+@media (min-width: 900px) {
+  .drawer.right {
+    top: calc(var(--bar-h) + var(--safe-t));
+    bottom: calc(var(--foot-h) + var(--safe-b));
+    width: 380px; padding-top: 0; padding-bottom: 0;
+    box-shadow: none; border-left: 1px solid var(--line);
+  }
+  .drawer.right .drawer-head { padding-top: 4px; }
+}
+
+/* wide desktop: table of contents pinned as a sidebar */
+:root.pinned #toc-panel,
+:root.pinned #toc-panel[hidden] {
+  display: flex !important;
+  top: calc(var(--bar-h) + var(--safe-t));
+  bottom: 0;
+  width: var(--side);
+  padding-top: 0;
+  box-shadow: none;
+  border-right: 1px solid var(--line);
+  background: var(--bg);
+  z-index: 4;
+  animation: none;
+}
+:root.pinned #toc-panel [data-close] { display: none; }
+:root.pinned #toc-panel .drawer-head { padding: 10px 16px 2px; }
+:root.pinned #toc-panel .drawer-head h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+:root.pinned #toc-panel .drawer-tools { border-bottom-color: transparent; }
+:root.pinned #toc-list a:hover { background: color-mix(in srgb, var(--fg) 6%, transparent); }
+:root.pinned #stage,
+:root.pinned .bar.bottom { margin-left: var(--side); }

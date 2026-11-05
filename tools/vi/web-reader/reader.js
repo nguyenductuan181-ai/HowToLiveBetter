@@ -22,7 +22,8 @@
   if (["light", "sepia", "dark"].indexOf(state.theme) < 0) state.theme = "light";
   if (["scrolled", "paginated"].indexOf(state.flow) < 0) state.flow = "scrolled";
 
-  var book = null, rendition = null, spine = [], tocByHref = {}, tocLinks = [];
+  var book = null, rendition = null, spine = [], tocByHref = {}, tocFull = {}, tocLinks = [];
+  var resumed = false;
   var current = { index: 0, href: "", cfi: "" };
   var searchHl = null;
 
@@ -48,10 +49,21 @@
   /* ---------- panels ---------- */
 
   var openPanel = null;
+  var wide = window.matchMedia("(min-width: 1180px)");
+  var roomy = window.matchMedia("(min-width: 900px)");
+  state.pin = load("pin", "1") === "1";
+  function pinned() { return wide.matches && state.pin; }
+  function applyPin() {
+    root.classList.toggle("pinned", pinned());
+    $("btn-toc").setAttribute("aria-pressed", pinned() ? "true" : "false");
+    if (rendition) setTimeout(function () { try { rendition.resize($("stage").clientWidth, $("stage").clientHeight); } catch (e) { /* ignore */ } }, 0);
+  }
+  if (wide.addEventListener) wide.addEventListener("change", applyPin);
   function show(id) {
     hideAll();
     var el = $(id); el.hidden = false; openPanel = el;
-    if (id !== "download-panel") $("scrim").hidden = false;
+    var docked = (id === "search-panel" && roomy.matches) || id === "settings-panel";
+    if (id !== "download-panel" && !docked) $("scrim").hidden = false;
     if (id === "toc-panel") {
       var cur = $("toc-list").querySelector("a.current");
       if (cur) cur.scrollIntoView({ block: "center" });
@@ -60,10 +72,15 @@
   }
   function hideAll() {
     ["toc-panel", "search-panel", "settings-panel", "download-panel"].forEach(function (id) { $(id).hidden = true; });
+    if (pinned()) $("toc-panel").hidden = false;
     $("scrim").hidden = true; openPanel = null;
   }
   function toggle(id) { if (openPanel && openPanel.id === id) hideAll(); else show(id); }
-  $("btn-toc").onclick = function () { toggle("toc-panel"); };
+  $("btn-toc").onclick = function () {
+    if (wide.matches) { state.pin = !state.pin; save("pin", state.pin ? "1" : "0"); applyPin(); hideAll(); return; }
+    toggle("toc-panel");
+  };
+  $("btn-share").onclick = shareHere;
   $("btn-search").onclick = function () { toggle("search-panel"); };
   $("btn-settings").onclick = function () { toggle("settings-panel"); };
   $("btn-download").onclick = function () { toggle("download-panel"); };
@@ -95,7 +112,10 @@
     }
     if (state.flow === "scrolled") {
       css += "body{max-width:40em !important;margin:0 auto !important;padding:28px 22px 72px !important;box-sizing:border-box;}";
-      css += "body.cover-page{padding:0 !important;max-width:34em !important;}";
+      var sh = $("stage").clientHeight, pad = sh > 500 ? 28 : 16;
+      css += "body.cover-page{max-width:none !important;margin:0 !important;padding:" + pad + "px 16px !important;text-align:center !important;}";
+      css += "body.cover-page .cover{text-align:center !important;}";
+      css += "body.cover-page .cover img{display:inline-block !important;width:auto !important;max-width:100% !important;max-height:" + Math.max(240, sh - 2 * pad) + "px !important;box-shadow:0 8px 30px rgba(0,0,0,.18);}";
     }
     if ($("stage").clientWidth < 600) css += "p,li,.chapter-intro{text-align:left !important;-webkit-hyphens:none;hyphens:none;}";
     css += "::selection{background:rgba(31,92,138,.28);}";
@@ -201,7 +221,7 @@
   function startTarget() {
     var h = decodeURIComponent((location.hash || "").slice(1));
     if (h && book.spine.get(baseHref(h))) return h;
-    if (state.cfi) return state.cfi;
+    if (state.cfi) { resumed = true; return state.cfi; }
     return undefined;
   }
 
@@ -277,18 +297,62 @@
     $("progress-fill").style.width = pct + "%";
 
     var label = tocByHref[current.href] || "";
+    var entry = entryAt(loc.start.cfi);
+    current.entry = entry;
+    var entryLabel = entry ? (tocFull[current.href + "#" + entry] || "") : "";
     $("chapter-title").textContent = label;
     var chap = /^Chương\s+(\d+)/.exec(label);
-    $("progress-text").textContent = (chap ? "Chương " + chap[1] + "/34 · " : "") + pct + "%";
-    document.title = (label ? label + " · " : "") + "Cẩm nang sống đáng giá";
+    $("progress-text").textContent = (chap ? "Chương " + chap[1] + "/34 · " : "") + pct + "%" + (entryLabel ? " · Mục " + entryLabel : "");
+    document.title = (entryLabel ? entryLabel.replace(/^\d+\.\s*/, "") + " · " : label ? label + " · " : "") + "Cẩm nang sống đáng giá";
 
-    var h = decodeURIComponent((location.hash || "").slice(1));
-    if (baseHref(h) !== current.href) {
-      try { history.replaceState(null, "", "#" + encodeURIComponent(current.href)); } catch (e) { /* file:// */ }
+    var want = current.href + (entry ? "#" + entry : "");
+    if (decodeURIComponent((location.hash || "").slice(1)) !== want) {
+      try { history.replaceState(null, "", "#" + encodeURIComponent(want)); } catch (e) { /* file:// */ }
     }
-    tocLinks.forEach(function (a) { a.classList.toggle("current", a.getAttribute("data-base") === current.href && a.getAttribute("data-top") === "1"); });
+    var curLink = null;
+    tocLinks.forEach(function (a) {
+      var hit = a.getAttribute("data-href") === want || (!entry && a.getAttribute("data-href") === current.href);
+      a.classList.toggle("current", hit);
+      a.classList.toggle("in-chapter", a.getAttribute("data-base") === current.href && a.getAttribute("data-top") === "1");
+      if (hit) curLink = a;
+    });
+    if (curLink && pinned() && !$("toc-filter").value) {
+      var li = curLink.closest(".lvl0"); if (li && !li.classList.contains("open")) li.classList.add("open");
+      var body = $("toc-list"), r = curLink.getBoundingClientRect(), br = body.getBoundingClientRect();
+      if (r.top < br.top || r.bottom > br.bottom) curLink.scrollIntoView({ block: "center" });
+    }
+    if (resumed) { resumed = false; toast("Đọc tiếp từ chỗ lần trước" + (label ? ": " + label : "")); }
     $("btn-prev").disabled = current.index <= 0 && (state.flow === "scrolled" || loc.atStart);
     $("btn-next").disabled = current.index >= n - 1 && (state.flow === "scrolled" || loc.atEnd);
+  }
+
+  function entryAt(cfi) {
+    try {
+      var r = rendition.getRange(cfi);
+      var n = r && r.startContainer;
+      if (!n) return "";
+      if (n.nodeType !== 1) n = n.parentNode;
+      var sec = n.closest && n.closest("section.entry");
+      if (sec) return sec.id;
+      var all = n.ownerDocument.querySelectorAll("section.entry"), last = "";
+      for (var i = 0; i < all.length; i++) {
+        if (all[i].compareDocumentPosition(n) & Node.DOCUMENT_POSITION_FOLLOWING) last = all[i].id; else break;
+      }
+      return last;
+    } catch (e) { return ""; }
+  }
+
+  function shareHere() {
+    var url = location.href;
+    var title = document.title;
+    if (navigator.share && window.matchMedia("(pointer: coarse)").matches) {
+      navigator.share({ title: title, url: url }).catch(function () { /* cancelled */ });
+      return;
+    }
+    var done = function () { toast(current.entry ? "Đã chép liên kết tới mục này" : "Đã chép liên kết tới phần này"); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(done, function () { window.prompt("Chép liên kết:", url); });
+    } else { window.prompt("Chép liên kết:", url); }
   }
 
   function goSection(delta) {
@@ -317,6 +381,7 @@
     var t = e.target && e.target.tagName;
     if (t === "INPUT" || t === "TEXTAREA") return;
     if (e.key === "Escape") { hideAll(); return; }
+    if (e.key === "/" && rendition) { show("search-panel"); $("search-input").focus(); return; }
     if (state.flow !== "paginated") return;
     if (e.key === "ArrowLeft" || e.key === "PageUp") prev();
     if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") next();
@@ -358,8 +423,10 @@
         a.setAttribute("data-base", baseHref(it.href));
         a.setAttribute("data-top", it.href.indexOf("#") > -1 ? "0" : "1");
         a.setAttribute("data-label", label);
+        a.setAttribute("data-href", href);
+        tocFull[href] = label;
         a.onclick = function (e) {
-          e.preventDefault(); hideAll();
+          e.preventDefault(); if (!pinned()) hideAll();
           rendition.display(href);
           try { history.replaceState(null, "", "#" + encodeURIComponent(href)); } catch (err) { /* ignore */ }
         };
@@ -485,7 +552,7 @@
   }
 
   function goHit(cfi) {
-    if (window.matchMedia("(max-width: 900px)").matches) hideAll();
+    if (!roomy.matches) hideAll();
     rendition.display(cfi).then(function () {
       if (searchHl) { try { rendition.annotations.remove(searchHl, "highlight"); } catch (e) { /* ignore */ } }
       searchHl = cfi;
@@ -509,6 +576,8 @@
   window.addEventListener("keydown", function (e) {
     if ((e.ctrlKey || e.metaKey) && e.key === "f" && rendition) { e.preventDefault(); show("search-panel"); $("search-input").focus(); }
   });
+  applyPin();
+  hideAll();
   restyle();
   if (typeof ePub !== "function" || typeof JSZip !== "function") {
     setLoad(0, "Trình duyệt không chạy được trang đọc. Bạn có thể tải file EPUB về máy.");

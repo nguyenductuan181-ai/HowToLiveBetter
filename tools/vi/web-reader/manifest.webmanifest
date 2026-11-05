@@ -1,0 +1,12 @@
+{
+  "name": "Cẩm nang sống đáng giá",
+  "short_name": "Cẩm nang",
+  "description": "Đọc online bản tiếng Việt của HowToLiveBetter.",
+  "lang": "vi",
+  "start_url": "/how-to-live-better",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#f7f5f0",
+  "icons": [{ "src": "/how-to-live-better/assets/icon.png", "sizes": "256x256", "type": "image/png", "purpose": "any" }]
+}

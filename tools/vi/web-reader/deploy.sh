@@ -21,4 +21,5 @@ put "$A/epub.min.js"  "$D/$A/epub.min.js"  "text/javascript; charset=utf-8" "$AS
 put "$A/jszip.min.js" "$D/$A/jszip.min.js" "text/javascript; charset=utf-8" "$ASSET_CACHE"
 put "$A/icon.png"     "$D/$A/icon.png"     "image/png"                      "public, max-age=86400"
 put "$A/og.jpg"       "$D/$A/og.jpg"       "image/jpeg"                     "public, max-age=86400"
+put "$A/manifest.webmanifest" "$D/$A/manifest.webmanifest" "application/manifest+json" "public, max-age=86400"
 echo "done: https://sach.thantamtue.vn/how-to-live-better"
