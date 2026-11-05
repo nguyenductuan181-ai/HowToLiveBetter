@@ -306,7 +306,8 @@
     $("progress-fill").style.width = pct + "%";
 
     var label = tocByHref[current.href] || "";
-    var entry = entryAt(loc.start.cfi);
+    var entry = (state.flow === "scrolled" ? entryInView() : null);
+    if (entry === null) entry = entryAt(loc.start.cfi);
     current.entry = entry;
     var entryLabel = entry ? (tocFull[current.href + "#" + entry] || "") : "";
     $("chapter-title").textContent = label;
@@ -336,6 +337,22 @@
     $("btn-next").disabled = current.index >= n - 1 && (state.flow === "scrolled" || loc.atEnd);
   }
 
+  // scroll mode: the entry whose heading is at or above the top third of the screen
+  function entryInView() {
+    try {
+      var c = scroller(), frame = document.querySelector("#viewer iframe");
+      var contents = rendition.getContents()[0];
+      if (!c || !frame || !contents || !contents.document) return null;
+      var cr = c.getBoundingClientRect(), fr = frame.getBoundingClientRect();
+      var line = c.clientHeight * 0.3, found = "";
+      var all = contents.document.querySelectorAll("section.entry");
+      for (var i = 0; i < all.length; i++) {
+        var top = fr.top - cr.top + all[i].getBoundingClientRect().top;
+        if (top <= line) found = all[i].id; else break;
+      }
+      return found;
+    } catch (e) { return null; }
+  }
   function entryAt(cfi) {
     try {
       var r = rendition.getRange(cfi);
@@ -426,7 +443,7 @@
     else if (k === "Home" && !paged) { var c1 = scroller(); if (c1) c1.scrollTop = 0; }
     else if (k === "End" && !paged) { var c2 = scroller(); if (c2) c2.scrollTop = c2.scrollHeight; }
     else handled = false;
-    if (handled) e.preventDefault();
+    if (handled && e.cancelable) e.preventDefault();
   }
   document.addEventListener("keydown", onKey);
 
