@@ -72,3 +72,25 @@ Trước hết hãy trả lời mấy câu hỏi dưới đây, rồi mới đi 
 - Mọi điều khoản nêu trên đều lấy cột Nguồn của phần 26 trong README làm chuẩn. Ở đó có số hiệu văn bản, số điều và đường dẫn.
 - Loại quy định này thay đổi rất nhanh. Nội dung phần này được kiểm chứng vào tháng 9 năm 2026. Trước khi thật sự trích dẫn, bạn hãy tự mở lại trang gốc một lần. Đặc biệt phải xem hai chỗ: cách đánh số điều của Luật An toàn mạng thay đổi từ ngày 1 tháng 1 năm 2026; quy định về người chưa thành niên và tiền thưởng trong phát trực tiếp đổi sang chia theo nhóm tuổi từ tháng 4 năm 2026.
 - Có mấy chỗ không lấy được bản gốc, đã ghi rõ từng chỗ trong [ghi chép kiểm chứng](ghi-chep-kiem-chung/them-phan-26-lam-nen-tang.md). Một chỗ là nền tảng thương mại điện tử rốt cuộc có bắt buộc phải làm EDI hay không, và cơ quan chính thức có văn bản nào nói rõ hay không. Chỗ còn lại là bản giải thích tư pháp xử thẳng hành vi kinh doanh dịch vụ văn hóa mạng hoặc nghe nhìn mà không có giấy phép theo tội kinh doanh trái phép.
+
+## V. Đối chiếu toàn diện sang pháp luật Việt Nam
+
+Nếu bạn triển khai website, ứng dụng hoặc nền tảng trực tuyến phục vụ người dùng tại thị trường Việt Nam, hệ thống giấy phép và nghĩa vụ pháp lý được quy định như sau:
+
+| Mô hình của bạn | Bản chất nghiệp vụ tại VN | Thủ tục bắt buộc | Căn cứ pháp lý cốt lõi |
+|---|---|---|---|
+| Tự bán hàng hóa, dịch vụ của chính mình (website doanh nghiệp, bán hàng online) | Website thương mại điện tử bán hàng | **Thông báo** trực tuyến với Bộ Công Thương tại cổng `online.gov.vn` (miễn phí, làm trước khi đưa web vào hoạt động). | Nghị định 52/2013/NĐ-CP và Nghị định 85/2021/NĐ-CP |
+| Cho phép người khác mở gian hàng, đăng bán, thanh toán qua nền tảng (sàn TMĐT) | Sàn giao dịch thương mại điện tử | **Đăng ký** với Bộ Công Thương tại cổng `online.gov.vn`. Cần đề án hoạt động, quy chế sàn, cơ chế xử lý tranh chấp, xác thực thông tin người bán. | Nghị định 52/2013/NĐ-CP và Nghị định 85/2021/NĐ-CP |
+| Gom tin tức, bài viết từ các báo khác về xuất bản | Trang thông tin điện tử tổng hợp | Xin **Giấy phép thiết lập trang thông tin điện tử tổng hợp (ICP)** do Sở TT&TT địa phương hoặc Cục PTTH & TTĐT cấp. Chỉ được trích dẫn nguyên văn nguồn báo chí có thỏa thuận bản quyền bằng văn bản. | Nghị định 72/2013/NĐ-CP, Nghị định 27/2018/NĐ-CP |
+| Mạng xã hội, diễn đàn thảo luận, chia sẻ video/livestream cộng đồng | Dịch vụ mạng xã hội trực tuyến | Xin **Giấy phép thiết lập mạng xã hội** (Bộ TT&TT cấp) hoặc thông báo hoạt động theo quy định. Bắt buộc đặt máy chủ tại Việt Nam. | Nghị định 147/2024/NĐ-CP (thay thế Nghị định 72/2013/NĐ-CP) |
+| Cung cấp trò chơi điện tử trực tuyến (G1, G2, G3, G4) | Trò chơi điện tử trên mạng | Giấy phép cung cấp dịch vụ trò chơi G1 hoặc Giấy chứng nhận đăng ký cung cấp dịch vụ G2, G3, G4 do Bộ TT&TT cấp. | Nghị định 147/2024/NĐ-CP |
+
+### Quy chuẩn thực thi cứng tại Việt Nam
+
+1. **Xác thực tài khoản người dùng**: Theo Nghị định 147/2024/NĐ-CP, các nền tảng mạng xã hội và dịch vụ trực tuyến bắt buộc phải xác thực tài khoản người dùng bằng số điện thoại di động tại Việt Nam hoặc số định danh cá nhân (CCCD/VNeID). Chỉ tài khoản đã xác thực mới được quyền đăng bài, bình luận hoặc livestream.
+2. **Nghĩa vụ thuế của sàn TMĐT**: Sàn giao dịch TMĐT có trách nhiệm cung cấp định kỳ thông tin người bán (doanh thu, số tài khoản, mã số thuế) cho Tổng cục Thuế qua Cổng thông tin thương mại điện tử, đồng thời phối hợp thực hiện việc khấu trừ, nộp thuế thay theo quy định pháp luật quản lý thuế.
+3. **Lưu trữ dữ liệu và nhật ký hệ thống**:
+   - Lưu trữ nhật ký hệ thống (log files) tối thiểu **12 tháng** để phục vụ công tác thanh tra, điều tra an ninh mạng (Luật An ninh mạng 2018).
+   - Lưu trữ thông tin đăng ký của đối tác/người bán và dữ liệu lịch sử giao dịch ít nhất **03 năm** kể từ ngày giao dịch hoàn tất (Nghị định 52/2013/NĐ-CP).
+4. **Hạ gỡ nội dung vi phạm**: Khi có yêu cầu của cơ quan quản lý chuyên ngành (Bộ TT&TT, Bộ Công an), nền tảng phải ngăn chặn, gỡ bỏ thông tin vi phạm trong vòng **24 giờ** (hoặc thời hạn ngắn hơn đối với thông tin xâm phạm an ninh quốc gia).
+5. **Bảo vệ dữ liệu cá nhân**: Tuân thủ nghiêm ngặt Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân: phải lập hồ sơ đánh giá tác động xử lý dữ liệu cá nhân, đánh giá tác động chuyển dữ liệu cá nhân ra nước ngoài và nộp cho Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao (A05 - Bộ Công an).

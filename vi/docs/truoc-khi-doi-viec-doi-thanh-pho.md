@@ -96,3 +96,29 @@ Những việc mà đổi việc và đổi thành phố kéo theo nằm rải �
 10. «Đi khám tạm thời ở nơi khác» và «ở nơi khác dài hạn» là hai loại đăng ký khác nhau, mức thanh toán cũng khác nhau. Xem mục 4 phần 24 (trước khi khám ngoại tỉnh thì hỏi một câu ở địa phương).
 11. Trước khi đi, bạn tự lưu một bản bệnh án, phiếu xét nghiệm và phim chụp. Đổi bệnh viện hay tìm bác sĩ mới khám lại, tất cả đều dựa vào xấp tài liệu này. Xem mục 5 phần 24 (bệnh án, phiếu xét nghiệm và phim chụp tự lưu một bản).
 12. Nếu bạn đổi việc giữa năm, sang tháng 3 đến tháng 6 năm sau bạn làm một lần quyết toán thuế thu nhập cá nhân, thường sẽ được hoàn tiền. Xem mục 2 phần 5 (quyết toán thuế thu nhập cá nhân).
+
+## Đối chiếu thực thi tại Việt Nam
+
+Nếu bạn đang sinh sống, làm việc tại Việt Nam và chuẩn bị đổi việc hoặc chuyển sang sinh sống ở tỉnh/thành phố khác, hãy áp dụng quy trình chuẩn theo pháp luật Việt Nam như sau:
+
+### 1. Thủ tục nghỉ việc và giải quyết chế độ (Bộ luật Lao động 2019)
+- **Thời hạn báo trước khi đơn phương chấm dứt HĐLĐ (Điều 35)**: Ít nhất 45 ngày (hợp đồng không xác định thời hạn); ít nhất 30 ngày (hợp đồng xác định thời hạn từ 12 đến 36 tháng); ít nhất 03 ngày làm việc (hợp đồng dưới 12 tháng).
+- **Thanh toán tiền lương và phép năm (Điều 48, Điều 113)**: Trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt HĐLĐ, người sử dụng lao động có trách nhiệm thanh toán đầy đủ các khoản tiền lương, tiền làm thêm giờ và thanh toán tiền lương cho những ngày phép năm chưa nghỉ hết.
+- **Chốt sổ và trả hồ sơ**: Doanh nghiệp bắt buộc phải hoàn thành thủ tục xác nhận thời gian đóng BHXH, BHTN (chốt sổ BHXH) và trả lại sổ BHXH cùng toàn bộ bản chính văn bằng, hồ sơ của người lao động. Không doanh nghiệp nào có quyền giữ giấy tờ tùy thân hay bằng cấp gốc của bạn.
+
+### 2. Ký hợp đồng và thử việc tại nơi làm mới
+- **Thời gian thử việc tối đa (Điều 25)**: Không quá 180 ngày với người quản lý doanh nghiệp; không quá 60 ngày với công việc có chức danh nghề nghiệp cần trình độ chuyên môn, kỹ thuật từ cao đẳng trở lên; không quá 30 ngày với trình độ trung cấp, công nhân kỹ thuật; không quá 06 ngày làm việc với công việc khác.
+- **Tiền lương thử việc (Điều 26)**: Ít nhất bằng 85% mức lương chính thức của công việc đó.
+- **Bảo hiểm xã hội bắt buộc**: Khi ký HĐLĐ chính thức từ đủ 01 tháng trở lên, doanh nghiệp bắt buộc phải tham gia đóng BHXH, BHYT, BHTN cho bạn.
+
+### 3. Bảo hiểm xã hội số (VssID) và thẻ BHYT khi chuyển nơi cư trú
+- **Mã số BHXH duy nhất**: Mã số BHXH tại Việt Nam đi theo mã định danh cá nhân (số thẻ CCCD) và không bị mất khi chuyển công ty hoặc chuyển tỉnh thành. Bạn chỉ cần tra cứu thông tin và quá trình đóng trên ứng dụng **VssID**.
+- **Chuyển nơi khám chữa bệnh BHYT ban đầu**: Khi chuyển nơi cư trú hoặc nơi làm việc, bạn được đổi cơ sở khám chữa bệnh ban đầu vào tháng đầu của mỗi quý.
+- **Thông tuyến khám chữa bệnh**: Quỹ BHYT đã **thông tuyến huyện trên toàn quốc** (khám ngoại trú và nội trú tại bất kỳ bệnh viện tuyến huyện nào trên cả nước đều hưởng 100% mức hưởng đúng tuyến) và **thông tuyến tỉnh nội trú trên toàn quốc** (điều trị nội trú tại bất kỳ bệnh viện tuyến tỉnh nào trên cả nước đều được hưởng 100% chi phí theo phạm vi quyền lợi mà không cần giấy chuyển viện).
+
+### 4. Đăng ký tạm trú và khai báo cư trú (Luật Cư trú 2020)
+- Trong thời hạn **30 ngày** kể từ ngày chuyển đến chỗ ở hợp pháp mới ngoài phạm vi đơn vị hành chính cấp xã nơi đã đăng ký thường trú, công dân có trách nhiệm thực hiện đăng ký tạm trú.
+- Toàn bộ thủ tục đăng ký thường trú, tạm trú, khai báo tạm vắng hiện nay được thực hiện trực tuyến 100% trên **Cổng Dịch vụ công Quốc gia** (`dichvucong.gov.vn`) hoặc qua ứng dụng định danh điện tử **VNeID** (mức 2). Sổ hộ khẩu giấy và sổ tạm trú giấy đã chính thức hết hiệu lực; thông tin cư trú được khai thác trực tiếp từ Cơ sở dữ liệu quốc gia về dân cư.
+
+### 5. Tự quyết toán thuế Thu nhập cá nhân (TNCN)
+- Nếu trong năm bạn có thu nhập từ 2 nơi trở lên thuộc diện tự quyết toán, hãy nộp hồ sơ quyết toán thuế TNCN trực tuyến qua cổng Thuế điện tử (`thuedientu.gdt.gov.vn`) hoặc ứng dụng **eTax Mobile** chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch (thường là ngày 30/4 hoặc 02/5). Trường hợp có số thuế nộp thừa đề nghị hoàn thì không bị xử phạt vi phạm hành chính về thời hạn nộp hồ sơ.

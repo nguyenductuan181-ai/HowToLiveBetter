@@ -2,6 +2,13 @@
 
 # 12. Khởi nghiệp và làm ăn: đừng đem gia sản đổ vào
 
+> **Ghi chú đối chiếu pháp lý khởi nghiệp và kinh doanh tại Việt Nam (Luật Doanh nghiệp 2020, Luật Quản lý thuế 2019 & BLDS 2015):**
+> - **Lựa chọn loại hình**: Hộ kinh doanh và Doanh nghiệp tư nhân phải chịu **trách nhiệm vô hạn** bằng toàn bộ tài sản cá nhân/gia đình. Muốn ngăn cách rủi ro tài sản cá nhân với kinh doanh, hãy thành lập **Công ty TNHH** (1 thành viên hoặc 2 thành viên trở lên) hoặc **Công ty Cổ phần** để hưởng chế độ **trách nhiệm hữu hạn** trong phạm vi số vốn điều lệ cam kết góp.
+> - **Thời hạn góp đủ vốn điều lệ (90 ngày)**: Cổ đông/thành viên phải góp đủ và đúng loại tài sản đã cam kết trong vòng **90 ngày** kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp. Không góp đủ vốn phải làm thủ tục giảm vốn điều lệ trong 30 ngày tiếp theo; nếu không khai báo đúng, người góp vốn vẫn phải chịu trách nhiệm bằng tài sản tương ứng phần vốn đã cam kết.
+> - **Bảo lãnh cá nhân xóa bỏ trách nhiệm hữu hạn**: Tuyệt đối cân nhắc trước khi ký hợp đồng bảo lãnh bằng tài sản cá nhân hoặc để vợ/chồng cùng ký bảo lãnh cho khoản vay của công ty. Khi đã ký bảo lãnh cá nhân (Điều 335 BLDS 2015), tấm khiên "trách nhiệm hữu hạn" của công ty hoàn toàn bị vô hiệu hóa đối với khoản nợ đó.
+> - **Hóa đơn điện tử bắt buộc (Nghị định 123/2020/NĐ-CP)**: 100% doanh nghiệp, hộ kinh doanh tại Việt Nam bắt buộc sử dụng hóa đơn điện tử có mã hoặc không có mã của cơ quan thuế. Hành vi mua bán hóa đơn khống (không có hàng hóa, dịch vụ thực tế) từ 100 triệu đồng trở lên sẽ bị xử lý hình sự về Tội in, phát hành, mua bán trái phép hóa đơn (Điều 203 BLHS 2015).
+> - **Khai thuế ngay cả khi không có doanh thu**: Dù công ty chưa có khách hàng, chưa phát sinh doanh thu, kế toán vẫn bắt buộc phải nộp Tờ khai thuế GTGT và Báo cáo tình hình sử dụng hóa đơn định kỳ (tháng hoặc quý) qua cổng `thuedientu.gdt.gov.vn` để tránh bị phạt vi phạm hành chính về thuế và khóa mã số thuế.
+
 Phần này chỉ tính tiền và trách nhiệm pháp lý, không quy đổi ra tuổi thọ. Khi bạn mở một cửa hàng hay lập một công ty, bước nào sẽ kéo tiền của bạn, tiền của gia đình và tiền của vợ hoặc chồng cùng chìm theo? Pháp luật quy định thế nào, và bạn có thể ngăn cách trước được không? Mục nào chỉ viết theo kinh nghiệm, không có tài liệu chống lưng, thì ghi mức C.
 
 Các mục trong phần này chia theo chủ đề thành mấy khối dưới đây, số trong ngoặc là số mục.

@@ -38,6 +38,15 @@ Những việc phải làm sau khi bị cắt giảm nhân sự hoặc bị côn
 
 1. Công ty chây ỳ không trả lương và tiền làm thêm giờ thì bạn gọi 12333 khiếu nại thanh tra lao động trước, rồi mới xin trọng tài lao động. Cả hai đường đều không mất phí. Xem mục 2 phần 7 (bị nợ lương thì khiếu nại thanh tra lao động trước).
 2. Người thuê bạn là xưởng không có giấy phép thì bạn vẫn đi đường thanh tra và trọng tài. Tiền do cai thầu nợ thì bạn tìm nhà thầu chính; chỉ khi làm việc riêng cho hộ gia đình hoặc cá nhân thì mới phải ra tòa. Xem mục 22 phần 7 (trước hết phân biệt ai là người thuê bạn).
+
+## Quy chiếu tương đương tại Việt Nam
+
+Khi làm việc tại Việt Nam, quyền lợi của bạn được bảo vệ bởi Bộ luật Lao động 2019 và Luật Việc làm:
+- **Trợ cấp mất việc làm (Điều 47):** Nếu công ty tái cơ cấu, sáp nhập hoặc cắt giảm do suy thoái, người sử dụng lao động phải trả trợ cấp mất việc làm cho người lao động đã làm việc thường xuyên từ đủ 12 tháng trở lên. Mức hưởng: mỗi năm làm việc trả 01 tháng tiền lương, nhưng ít nhất phải bằng 02 tháng tiền lương.
+- **Trợ cấp thôi việc (Điều 46):** Khi hai bên thỏa thuận chấm dứt hợp đồng hoặc hết hạn hợp đồng, công ty trả trợ cấp thôi việc cho khoảng thời gian làm việc thực tế không tham gia bảo hiểm thất nghiệp (mỗi năm nửa tháng lương).
+- **Hồ sơ bảo hiểm thất nghiệp:** Nộp hồ sơ trong vòng 03 tháng kể từ ngày chấm dứt hợp đồng tại Trung tâm Dịch vụ việc làm của tỉnh, thành phố nơi bạn muốn nhận trợ cấp. Mức trợ cấp bằng 60% mức bình quân tiền lương tháng đóng BHTN của 06 tháng liền kề trước khi nghỉ việc, tối đa 12 tháng.
+- **Giải quyết tranh chấp và nợ lương:** Nộp đơn khiếu nại đến Thanh tra Sở Lao động - Thương binh và Xã hội hoặc liên hệ Hòa giải viên lao động tại Phòng Lao động - Thương binh và Xã hội cấp quận, huyện. Quá trình hòa giải lao động hoàn toàn miễn phí.
+
 3. Đơn xin trọng tài lao động phải nộp trong vòng 1 năm sau khi nghỉ việc. Quá hạn thì bên kia chỉ cần nói một câu «quá thời hiệu» là đủ. Xem mục 19 phần 8 (trọng tài lao động 1 năm).
 4. Tìm việc thì bạn đến cơ quan dịch vụ việc làm công trước. Giới thiệu việc làm và hướng dẫn nghề nghiệp đều miễn phí, bạn đừng tìm môi giới thu tiền. Xem mục 5 phần 7 (dịch vụ việc làm công).
 5. Tìm việc đừng chỉ gửi hồ sơ. Bạn học kỹ năng tìm việc, đặt mục tiêu rõ ràng và mở lời nhờ người quen giới thiệu nội bộ. Xem mục 14 phần 7 (tìm việc bằng cách có hệ thống).

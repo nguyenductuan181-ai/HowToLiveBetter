@@ -2,6 +2,12 @@
 
 # 15. Thuê nhà và mua nhà
 
+> **Ghi chú đối chiếu pháp lý thuê & mua bán nhà đất tại Việt Nam (Luật Đất đai 2024, Luật Nhà ở 2023 & Luật Kinh doanh BĐS 2023):**
+> - **Thuê nhà & Đặt cọc (Điều 328 BLDS 2015)**: Hợp đồng thuê nhà ở không bắt buộc công chứng nhưng thỏa thuận đặt cọc bắt buộc phải ghi rõ: số tiền cọc, điều kiện hoàn cọc, thời hạn trả lại cọc và mức bồi thường nếu vi phạm. Chủ nhà tự ý cắt điện, cắt nước, tự ý vào nhà hay vứt đồ của khách thuê ra ngoài là hành vi vi phạm pháp luật (có thể cấu thành tội Xâm phạm chỗ ở của người khác theo Điều 158 BLHS 2015).
+> - **Hợp đồng mua bán nhà đất bắt buộc công chứng**: Mọi giao dịch chuyển nhượng, mua bán bất động sản giữa cá nhân bắt buộc phải lập thành văn bản và **công chứng hoặc chứng thực** tại Phòng/Văn phòng Công chứng. Giấy viết tay mua bán nhà đất không có giá trị pháp lý và tiềm ẩn rủi ro mất trắng.
+> - **Kiểm tra thế chấp và quy hoạch trước khi cọc**: Trước khi giao tiền cọc, luôn yêu cầu xem bản gốc Giấy chứng nhận quyền sử dụng đất (Sổ đỏ/Sổ hồng), kiểm tra thông tin ngăn chặn giao dịch và tình trạng thế chấp tại Văn phòng Công chứng hoặc Văn phòng Đăng ký đất đai chi nhánh quận/huyện.
+> - **Mua nhà chung cư/dự án hình thành trong tương lai**: Bắt buộc kiểm tra 03 điều kiện: (1) Văn bản đủ điều kiện mở bán nhà ở hình thành trong tương lai do Sở Xây dựng cấp; (2) Thư bảo lãnh nghĩa vụ tài chính của Ngân hàng thương mại; (3) Tiến độ thanh toán luật định: thu tiền lần đầu không quá 30% giá trị hợp đồng, thu theo tiến độ trước khi bàn giao không quá 70% (đối với CĐT trong nước) hoặc 50% (đối với CĐT có vốn đầu tư nước ngoài), và giữ lại 5% cuối cùng cho đến khi được bàn giao Giấy chứng nhận quyền sở hữu (Sổ hồng).
+
 Phần này đo bằng tiền. Chỗ dễ mất tiền nhất khi đi thuê nhà là tiền đặt cọc và tiền môi giới. Chỗ tốn tiền nhất khi mua nhà là lãi vay, cùng những chuyện người bán biết mà bạn không biết. Mấy mục ở cuối phần này nói về mua nhà: tiền phải chuyển vào tài khoản nào, tiền đặt cọc và tiền nhà khi nào thì đòi lại được, giao nhà muộn thì làm sao. Còn có cách phòng chuyện một căn nhà bị bán cho hai người, và cách thương lượng để hạ lãi suất vay mua nhà. Hai mục cuối nói chuyện sau khi đã dọn vào ở: công ty quản lý nhà không được cắt nước, cắt điện để ép đóng phí quản lý; nhà mới bị dột trong thời hạn bảo hành thì tìm chủ đầu tư sửa.
 
 ### 1. Khi thuê nhà, số tiền đặt cọc, thời hạn hoàn trả và các trường hợp bị trừ phải được ghi vào hợp đồng

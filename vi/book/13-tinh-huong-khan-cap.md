@@ -2,6 +2,14 @@
 
 # 13. Tình huống khẩn cấp: làm gì trước
 
+> **Ghi chú tra cứu khẩn cấp tại Việt Nam:**
+> - Cấp cứu y tế: gọi **115** (nguyên tác Trung Quốc ghi 120).
+> - Cảnh sát phản ứng nhanh, trật tự xã hội: gọi **113** (nguyên tác Trung Quốc ghi 110).
+> - Cứu hỏa và cứu hộ cứu nạn: gọi **114** (nguyên tác Trung Quốc ghi 119).
+> - Tổng đài Quốc gia bảo vệ trẻ em: gọi **111**.
+> - Chặn dòng tiền lừa đảo qua mạng: gọi ngay hotline ngân hàng để khóa tài khoản/thẻ, gọi **156** hoặc gửi phản ánh lên Cục An toàn thông tin (`canhbao.ncsc.gov.vn`).
+> - Nghĩa vụ cứu người: Theo Điều 132 Bộ luật Hình sự 2015 của Việt Nam, người thấy người khác đang trong tình trạng nguy hiểm đến tính mạng, tuy có điều kiện mà không cứu giúp dẫn đến nạn nhân tử vong là **phạm tội hình sự** (phạt tù đến 02 năm). Tại Việt Nam, hành động tối thiểu bắt buộc là gọi ngay 115/113 và hô hoán người xung quanh hỗ trợ, không được bỏ đi như quy định ở Trung Quốc.
+
 Phần này nói khi sự việc đã xảy ra thì làm gì trước, làm gì sau, và việc gì không được làm. Các mục về sơ cứu và ngoài trời tính theo tỷ lệ tử vong do từng nguyên nhân và tỷ lệ sống sót. Các mục về đe dọa và lừa đảo tính theo tiền và tự do thân thể. Hai loại số này không quy đổi qua lại. Những mục này trước hết dành cho chính bạn, cho vợ hoặc chồng và thân nhân trực hệ. Ngừng tim có 79,2% xảy ra ở nhà, nên người bạn dễ cứu được nhất chính là người trong nhà. Kế đến là bạn bè và đồng nghiệp. Với người lạ thì việc cứu cũng không phải hoàn toàn vô ích, nhưng đây là bậc thấp nhất, và bạn còn có thể bị vu oan, bị cuốn vào vụ án. Vì vậy những mục kiểu này đặt động tác tự bảo vệ và điều khoản miễn trách lên trước.
 
 Phần này chỉ thu những động tác phải làm trong vài phút. Nhận ra một trò lừa, hay bị người ta nắm thóp đòi tiền, là việc xử lý tính bằng ngày, nên không nằm trong phần này. Quy tắc cứng chống lừa đảo và bảy kiểu lừa đảo phổ biến nhất, xem mục 3 phần 8 (quy tắc cứng chống lừa đảo). Bị người ta lấy ảnh riêng tư hay video chat sex ra đòi tiền, xem mục 32 phần 8 (đối phương lấy điểm yếu đòi tiền). Tiền đã chuyển đi rồi thì bạn gọi ngay 110 hoặc 96110 để yêu cầu chặn chi, xem mục 2 phần 8 (chặn chi).

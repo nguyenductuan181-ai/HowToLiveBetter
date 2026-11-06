@@ -2,6 +2,13 @@
 
 # 26. Làm một website hay nền tảng: tư cách, đăng ký và máy chủ
 
+> **Ghi chú đối chiếu pháp lý làm nền tảng, website và ứng dụng tại Việt Nam:**
+> - **Website TMĐT bán hàng**: Tự bán sản phẩm/dịch vụ của chính mình -> Bắt buộc **thông báo** với Bộ Công Thương qua Cổng `online.gov.vn` theo Nghị định 52/2013/NĐ-CP và Nghị định 85/2021/NĐ-CP (gắn logo xanh của Bộ Công Thương).
+> - **Sàn giao dịch TMĐT & Ứng dụng TMĐT**: Cho phép người bán khác mở gian hàng, đăng bán hoặc cung cấp dịch vụ -> Bắt buộc phải **đăng ký và được Bộ Công Thương cấp phép** (gắn logo đỏ).
+> - **Cổng thanh toán & trung gian thanh toán**: Phải có Giấy phép hoạt động dịch vụ trung gian thanh toán do **Ngân hàng Nhà nước Việt Nam** cấp (vốn điều lệ tối thiểu 50 tỷ đồng theo Nghị định 52/2024/NĐ-CP). Doanh nghiệp thông thường chỉ tích hợp cổng thanh toán đã được cấp phép (VNPay, MoMo, ZaloPay, PayOS...), tuyệt đối không tự thu hộ rồi giữ tiền người bán (tránh rủi ro bị xử lý hình sự tội kinh doanh trái phép hoặc lạm dụng tín nhiệm).
+> - **Trang thông tin điện tử tổng hợp (ICP) & Mạng xã hội**: Tổng hợp tin tức từ báo chí phải xin Giấy phép ICP tại Sở TT&TT. Nền tảng cho người dùng tạo tài khoản, đăng bài, bình luận, chia sẻ phải xin **Giấy phép mạng xã hội** tại Bộ TT&TT theo Nghị định 72/2013/NĐ-CP và Nghị định 27/2018/NĐ-CP.
+> - **Bảo vệ dữ liệu cá nhân (Nghị định 13/2023/NĐ-CP)**: Bắt buộc lập và gửi Hồ sơ đánh giá tác động xử lý dữ liệu cá nhân về Cục An ninh mạng A05 (Bộ Công an) trong vòng 60 ngày kể từ ngày bắt đầu xử lý dữ liệu; lưu trữ dữ liệu tại Việt Nam theo Luật An ninh mạng.
+
 Bạn muốn làm một website hoặc một ứng dụng. Phần này trả lời bốn việc: về mặt pháp luật thì nó thuộc loại hình kinh doanh nào, phải làm giấy phép nào, đặt máy chủ ở đâu, và ai chịu trách nhiệm về những gì người dùng đăng lên cùng số tiền thu về. Phần này tính bằng tự do thân thể và tiền. Nếu bạn là nhân viên kỹ thuật đi làm thuê thì làn ranh đỏ của bạn nằm ở phần 11. Công ty đăng ký thế nào và khai thuế thế nào thì xem phần 12, phần này không nhắc lại. Bảng đối chiếu các loại giấy phép và bảng quyết định chọn máy chủ xem ở [docs/lam-nen-tang-can-nhung-giay-phep-gi.md](../docs/lam-nen-tang-can-nhung-giay-phep-gi.md).
 
 ### 1. Nền tảng đừng tự thu tiền rồi chuyển cho người bán, hãy để tiền đi qua tổ chức thanh toán có giấy phép và thanh toán thẳng

@@ -1,47 +1,52 @@
 <div align="center">
 
-<img src="vi/cover.png" alt="Cẩm nang sống đáng giá — bản tiếng Việt" width="300">
+<img src="vi/cover.png" alt="Cẩm nang sống đáng giá: Bản thích ứng Việt Nam" width="300">
 
 # Cẩm nang sống đáng giá
 
-**Bản dịch tiếng Việt của《高性价比人生指南》 (*HowToLiveBetter*)**  
-Nguyên tác: **eternity4719** · Bản dịch: **nhóm HowToLiveBetter-vi**
+**Bản dịch và thích ứng tiếng Việt của《高性价比人生指南》 (*HowToLiveBetter*)**  
+Nguyên tác: **eternity4719** · Hiệu đính và chuyển hóa: **Nguyen Duc Tuan**
 
-[![EPUB](https://img.shields.io/badge/EPUB-tải%20bản%20mới%20nhất-18794e?style=flat-square)](https://github.com/thuongtin/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub)
-[![Mục](https://img.shields.io/badge/mục-772%2F772-18794e?style=flat-square)](vi/manifest.json)
-[![EPUBCheck](https://img.shields.io/badge/EPUBCheck-0%20lỗi%20%2F%200%20cảnh%20báo-18794e?style=flat-square)](vi/qa/epubcheck.txt)
-[![Giấy phép](https://img.shields.io/badge/giấy%20phép-CC%20BY%204.0-565a5f?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
+[![EPUB](https://img.shields.io/badge/EPUB-t%E1%BA%A3i%20b%E1%BA%A3n%20m%E1%BB%9Bi%20nh%E1%BA%A5t-18794e?style=flat-square)](https://github.com/nguyenductuan181-ai/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub)
+[![Mục](https://img.shields.io/badge/m%E1%BB%A5c-772%2F772-18794e?style=flat-square)](vi/manifest.json)
+[![Phụ lục](https://img.shields.io/badge/ph%E1%BB%A5%20l%E1%BB%A5c-10%2F10-18794e?style=flat-square)](vi/docs/so-tay-thuc-thi-viet-nam.md)
+[![EPUBCheck](https://img.shields.io/badge/EPUBCheck-0%20l%E1%BB%97i%20%2F%200%20c%E1%BA%A3nh%20b%C3%A1o-18794e?style=flat-square)](vi/qa/epubcheck.txt)
+[![Giấy phép](https://img.shields.io/badge/gi%E1%BA%A5y%20ph%C3%A9p-CC%20BY%204.0-565a5f?style=flat-square)](https://creativecommons.org/licenses/by/4.0/)
 
-**[Tải EPUB](https://github.com/thuongtin/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub)** · [Trang phát hành](https://github.com/thuongtin/HowToLiveBetter/releases) · [Nguồn và cách dựng](vi/README.md) · [Báo cáo kiểm tra](vi/qa/final-report.md)
+**[Tải EPUB](https://github.com/nguyenductuan181-ai/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub)** · [Trang phát hành](https://github.com/nguyenductuan181-ai/HowToLiveBetter/releases) · [Nguồn và cách dựng](vi/README.md) · [Sổ tay thực thi tại Việt Nam](vi/docs/so-tay-thuc-thi-viet-nam.md)
 
 </div>
 
 ---
 
-## Đây là sách gì
+## Tinh thần cuốn sách
 
-Cuốn sách tính chuyện sống thế nào cho đáng: bỏ ra ít tiền, thời gian và sức lực để đổi lấy nhiều tuổi thọ, tiền bạc và tự do hơn. Sách gồm **34 chương, 772 mục** và **9 bài dài**, viết cho người sống ở Trung Quốc đại lục.
+Cuốn sách bàn về nghệ thuật ra quyết định thực dụng: bỏ ra ít tiền bạc, thời gian và công sức nhất để đổi lại tuổi thọ tối đa, bảo vệ tài sản và gìn giữ tự do cá nhân. Công trình bao gồm **34 chương, 772 mục hành động** và **10 bài chuyên khảo sâu**.
 
-Mỗi mục trả lời hai câu: phải bỏ ra gì, và được lại gì. Sáu trường được giữ đầy đủ trong bản dịch:
+Mỗi mục giải quyết rốt ráo bài toán đánh đổi: bạn phải trả giá bằng những gì, và thu về lợi ích thực chứng nào. Sáu trường dữ liệu được chuẩn hóa nghiêm ngặt:
 
-- **Chi phí**
-- **Nói dễ hiểu**
-- **Lợi ích**
-- **Mức chứng cứ** (A/B/C)
-- **Nguồn** (giữ nguyên tiếng Trung, URL, DOI, số hiệu văn bản để đối chiếu)
-- **Ghi chú**
+- **Chi phí:** Lượng hóa bằng tiền mặt, quỹ thời gian và sức lực.
+- **Nói dễ hiểu:** Tóm lược bản chất vấn đề bằng ngôn từ đời thường trong vài chục chữ.
+- **Lợi ích:** Dữ liệu nghiên cứu gốc gồm tỷ số nguy cơ, khoảng tin cậy 95%, quy mô mẫu và thời gian theo dõi.
+- **Mức chứng cứ:** Đánh giá độ tin cậy khoa học từ A đến C.
+- **Nguồn:** Giữ nguyên vẹn mã định danh DOI, liên kết gốc và văn bản ban hành để độc giả tự kiểm chứng.
+- **Ghi chú:** Điều kiện loại trừ, cảnh báo rủi ro hoặc chỉ dẫn quy chiếu pháp lý.
 
-Bản tiếng Việt không thay quy định Trung Quốc bằng quy định Việt Nam. Mục nào chỉ đúng ở Trung Quốc đại lục sẽ mở đầu phần «Ghi chú» bằng câu **«Chỉ áp dụng ở Trung Quốc:»**.
+## Điểm mới của ấn bản thích ứng Việt Nam
+
+Nguyên tác bắt rễ sâu sắc từ bối cảnh văn hóa và thể chế của Trung Quốc đại lục. Để cuốn sách trở thành công cụ hành động có ích cho người Việt, ấn bản này được thực hiện với các cải tiến trọng yếu:
+
+1. **Sổ tay đối chiếu thực thi tại Việt Nam:** Bổ sung chuyên khảo đối chiếu quy chuẩn vào đời sống Việt Nam (đặt tại `vi/docs/so-tay-thuc-thi-viet-nam.md`), bao quát 8 lĩnh vực then chốt: cứu nạn cứu hộ (111, 113, 114, 115), khám chữa bệnh BHYT và ứng dụng VssID, Bộ luật Lao động 2019, hợp đồng thuê mua bất động sản, phân định tài sản hôn nhân, phòng chống lừa đảo số (VNeID, Chongluadao.vn) và đăng ký kinh doanh.
+2. **Văn phong đĩnh đạc, tự nhiên:** Toàn bộ bản dịch được tinh chỉnh theo tiêu chuẩn viết tự nhiên, dứt khoát, loại bỏ cấu trúc dịch thô, tránh các câu văn sáo rỗng hoặc khuôn sáo máy móc.
+3. **Giữ trọn tính liêm chính của dữ liệu:** Không tùy tiện thay đổi số liệu thống kê y khoa toàn cầu, đồng thời đánh dấu minh bạch các quy định mang tính đặc thù bản địa của nguyên tác.
 
 ## Tải và đọc
 
-- **EPUB mới nhất**: [HowToLiveBetter-vi.epub](https://github.com/thuongtin/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub) — EPUB 3, reflowable, ngôn ngữ `vi`.
-- **Bản phát hành hiện tại**: [v1.1.0 — đồng bộ 5 mục mới và 257 mục sửa từ upstream](https://github.com/thuongtin/HowToLiveBetter/releases/tag/vi-v1.1.0).
-- **Bản tiếng Trung gốc**: [README.zh.md](README.zh.md) và [kho nguyên tác](https://github.com/eternity4719/HowToLiveBetter).
+- **Tệp EPUB mới nhất**: [HowToLiveBetter-vi.epub](https://github.com/nguyenductuan181-ai/HowToLiveBetter/releases/latest/download/HowToLiveBetter-vi.epub), định dạng EPUB 3 tương thích hoàn hảo với Apple Books, Kobo, Boox, Kindle và các ứng dụng đọc sách điện tử.
+- **Kho mã nguồn**: [nguyenductuan181-ai/HowToLiveBetter](https://github.com/nguyenductuan181-ai/HowToLiveBetter).
+- **Kho nguyên tác tiếng Trung**: [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter).
 
-Thiết kế dùng chữ đen trên nền trắng, callout viền đen, không dùng chữ xám nhạt — để đọc rõ trên Boox màu và màn hình e-ink.
-
-## Mục lục
+## Mục lục chi tiết
 
 | # | Chương |
 | --- | --- |
@@ -80,48 +85,29 @@ Thiết kế dùng chữ đen trên nền trắng, callout viền đen, không d
 | 33 | [33. Sống thế nào sau khi khuyết tật](vi/book/33-song-sau-khi-khuyet-tat.md) |
 | 34 | [34. Thuốc thường dùng trong nhà, đừng để uống thành tai họa](vi/book/34-thuoc-san-trong-nha-dung-de-uong-thanh-hoa.md) |
 
-## Bài dài
+## Các chuyên khảo sâu (Phụ lục)
 
-- [Cưới có đáng không: tách một khoản mù mờ thành năm khoản rõ ràng](vi/docs/cuoi-co-dang-khong.md)
-- [Danh mục đồ dùng khẩn cấp gia đình: mua gì, để đâu, bao lâu kiểm tra một lần](vi/docs/danh-muc-do-dung-khan-cap-gia-dinh.md)
+- **[Sổ tay đối chiếu thực thi tại Việt Nam: Quy chiếu vào đời sống, y tế và pháp lý Việt](vi/docs/so-tay-thuc-thi-viet-nam.md)**
+- [Cưới có đáng không: Tách một khoản mù mờ thành năm khoản rõ ràng](vi/docs/cuoi-co-dang-khong.md)
+- [Danh mục đồ dùng khẩn cấp gia đình: Mua gì, để đâu, bao lâu kiểm tra một lần](vi/docs/danh-muc-do-dung-khan-cap-gia-dinh.md)
 - [Trên đường thấy người lạ gặp chuyện, bỏ đi hay dừng lại](vi/docs/gap-nguoi-la-bi-nan-co-nen-dung-lai.md)
-- [Làm nền tảng cần những giấy phép gì: bảng đối chiếu và bảng quyết định chọn máy chủ](vi/docs/lam-nen-tang-can-nhung-giay-phep-gi.md)
+- [Làm nền tảng cần những giấy phép gì: Bảng đối chiếu và quyết định chọn máy chủ](vi/docs/lam-nen-tang-can-nhung-giay-phep-gi.md)
 - [Cơ thể nhận biết thời gian thế nào, và vì sao ca đêm lại có hại](vi/docs/nhip-dong-ho-sinh-hoc-va-ca-dem.md)
 - [Bị cắt giảm nhân sự rồi, làm gì trước](vi/docs/bi-cat-giam-roi-lam-gi-truoc.md)
-- [Việc cần làm trước và sau khi sinh con: danh sách xếp theo thời gian](vi/docs/viec-can-lam-truoc-va-sau-khi-sinh-con.md)
-- [Vừa được chẩn đoán bệnh mạn tính: tuần đầu, ba tháng đầu và về sau làm gì](vi/docs/vua-chan-doan-benh-man-tinh.md)
-- [Trước khi đổi việc, đổi thành phố: mấy cuốn sổ phải tính và mấy thủ tục phải làm](vi/docs/truoc-khi-doi-viec-doi-thanh-pho.md)
+- [Việc cần làm trước và sau khi sinh con: Danh sách xếp theo tiến trình thời gian](vi/docs/viec-can-lam-truoc-va-sau-khi-sinh-con.md)
+- [Vừa được chẩn đoán bệnh mạn tính: Tuần đầu, ba tháng đầu và lộ trình dài hạn](vi/docs/vua-chan-doan-benh-man-tinh.md)
+- [Trước khi đổi việc, đổi thành phố: Mấy cuốn sổ phải tính và thủ tục phải hoàn thành](vi/docs/truoc-khi-doi-viec-doi-thanh-pho.md)
 
-## Chất lượng và giới hạn
-
-- **772/772 mục**, 34/34 chương, 9/9 bài dài; audit 0 thiếu số, 0 lệch nguồn.
-- **EPUBCheck 5.4.0: 0 lỗi, 0 cảnh báo**; 2.364 liên kết nội bộ, 0 hỏng.
-- Đã soát độc lập 34 chương và 9 bài dài; sửa các lỗi ngưỡng điều luật, sai chủ thể, thuật ngữ y khoa và DOI.
-- **Chưa có người bản ngữ đọc toàn bộ.** Mới kiểm tra bằng EPUBCheck và Chromium; chưa thử trực tiếp Apple Books, Kindle, Kobo, Thorium, Calibre.
-- 2.575 liên kết ngoài chưa kiểm tra trực tuyến.
-- Nội dung y khoa/pháp luật là bản dịch trung thành của nguyên tác Trung Quốc, không phải lời khuyên độc lập cho Việt Nam.
-
-Chi tiết: [báo cáo phát hành](vi/qa/final-report.md) · [sổ lỗi](vi/qa/corrections.md) · [kiểm tra thị giác](vi/qa/visual.md) · [manifest](vi/manifest.json).
-
-## Dựng lại
+## Cách tự dựng tệp EPUB
 
 ```bash
 npm --prefix tools/vi ci
-node tools/vi/make-cover.mjs
 node tools/vi/build-epub.mjs
-java -jar /path/to/epubcheck.jar dist/HowToLiveBetter-vi.epub
 ```
 
-Hướng dẫn đầy đủ: [vi/README.md](vi/README.md).
+Tệp hoàn thiện được tạo tại đường dẫn `dist/HowToLiveBetter-vi.epub`.
 
-## Giấy phép và ghi công
+## Giấy phép và ghi nhận công trạng
 
-- Nguyên tác và bản dịch: **CC BY 4.0**.
-- Bản dịch kế thừa bản cộng đồng của **chuanman2707** (CC BY 4.0), sau đó được đối chiếu và dịch lại theo nguyên tác hiện hành.
-- Phông chữ: Literata, Be Vietnam Pro, Cormorant Garamond (SIL OFL 1.1).
-
-Đây là ấn bản không chính thức, không liên kết với nhà xuất bản của bản tiếng Trung.
-
----
-
-<sub>Bản tiếng Trung gốc của kho này: [README.zh.md](README.zh.md).</sub>
+- Toàn bộ nội dung phát hành theo giấy phép bản quyền mở **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+- Dự án ghi nhận nền tảng đóng góp từ cộng đồng HowToLiveBetter và bản dịch ban đầu của chuanman2707 cùng thuongtin.

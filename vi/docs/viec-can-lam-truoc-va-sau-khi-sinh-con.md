@@ -33,7 +33,7 @@ Toàn sách chia nội dung theo chủ đề, nên chuyện mang thai, sinh nở
 
 ## III. Khi vào viện sinh con
 
-1. Khi vỡ ối, bạn nằm phẳng ngay tại chỗ, kê cao mông và gọi 120, không đi lại. Xem mục 8 phần 27 (vỡ ối).
+1. Khi vỡ ối, bạn nằm phẳng ngay tại chỗ, kê cao mông và gọi cấp cứu 115 (ở Trung Quốc là 120), không đi lại. Xem mục 8 phần 27 (vỡ ối).
 2. Trong giờ đầu tiên sau khi con chào đời, bạn bắt đầu cho con bú. Xem mục 4 phần 20 (chỉ cho bú sữa mẹ).
 3. Trong 24 giờ sau sinh, bạn cho con tiêm mũi vắc-xin viêm gan B đầu tiên. Nếu mẹ dương tính với kháng nguyên bề mặt viêm gan B, con tiêm thêm globulin miễn dịch viêm gan B cùng lúc. Xem mục 2 phần 20 (mũi vắc-xin viêm gan B đầu tiên).
 4. Mũi tiêm vitamin K thì phải tiêm. Nếu bạn sinh ở nhà hoặc sinh ở cơ sở không chính quy, bạn chủ động hỏi một câu. Xem mục 7 phần 20 (mũi tiêm vitamin K).
@@ -68,3 +68,28 @@ Toàn sách chia nội dung theo chủ đề, nên chuyện mang thai, sinh nở
 9. Sau khi bạn đi làm lại, nếu con chưa đủ một tuổi thì mỗi ngày bạn có 1 giờ để cho con bú. Xem mục 3 phần 18 (cho con bú).
 10. Bạn liên kết tài khoản cá nhân bảo hiểm y tế của người lao động với gia đình để dùng chung. Khi đó con đi khám và mua thuốc có thể dùng tiền trong tài khoản này. Xem mục 13 phần 5 (dùng chung trong gia đình).
 11. Mỗi năm, khi quyết toán thuế thu nhập cá nhân, bạn điền khoản giảm trừ cho việc chăm sóc trẻ dưới 3 tuổi. Xem mục 2 phần 5 (giảm trừ gia cảnh bổ sung).
+
+## VII. Đối chiếu toàn diện chế độ thai sản và thủ tục tại Việt Nam
+
+Nếu bạn sinh con tại Việt Nam, các chính sách an sinh và thủ tục hành chính có những điểm ưu việt và khác biệt rõ ràng so với Trung Quốc như sau:
+
+### 1. Thời gian nghỉ thai sản (Bộ luật Lao động 2019 & Luật BHXH)
+- **Lao động nữ**: Được nghỉ thai sản trước và sau khi sinh con là **06 tháng** (ở Trung Quốc tối thiểu chỉ là 98 ngày). Trường hợp sinh đôi trở lên thì tính từ con thứ hai, cứ mỗi con người mẹ được nghỉ thêm 01 tháng. Thời gian nghỉ trước khi sinh tối đa không quá 02 tháng.
+- **Lao động nam (chồng có đóng BHXH)**: Khi vợ sinh con được nghỉ việc hưởng chế độ thai sản: **05 ngày làm việc** (vợ sinh thường); **07 ngày làm việc** (vợ sinh mổ hoặc sinh con dưới 32 tuần tuổi); **10 ngày làm việc** (vợ sinh đôi, thêm mỗi con nghỉ thêm 03 ngày).
+- **Tiền trợ cấp thai sản**: Quỹ BHXH chi trả 100% mức bình quân tiền lương đóng BHXH của 06 tháng liền kề trước khi nghỉ việc. Ngoài ra, người mẹ được nhận **trợ cấp một lần khi sinh con bằng 02 lần mức lương cơ sở** cho mỗi con.
+
+### 2. Thủ tục hành chính liên thông "3 trong 1"
+- Hiện nay tại Việt Nam, cha mẹ không cần phải cầm giấy chứng sinh đi nhiều nơi như trước. Việc đăng ký được thực hiện **LIÊN THÔNG 3 TRONG 1** hoàn toàn trực tuyến trên Cổng Dịch vụ công Quốc gia (`dichvucong.gov.vn`) hoặc ứng dụng **VNeID**:
+  1. Đăng ký khai sinh.
+  2. Đăng ký thường trú cho con.
+  3. Cấp thẻ Bảo hiểm y tế cho trẻ em dưới 6 tuổi.
+- Toàn bộ giấy khai sinh điện tử, mã định danh cá nhân và thẻ BHYT điện tử sẽ được trả tự động về ứng dụng VNeID và chuyển phát bản giấy về tận nhà nếu đăng ký nhận qua bưu điện.
+
+### 3. Khám chữa bệnh BHYT cho trẻ dưới 6 tuổi
+- Theo Luật Bảo hiểm y tế Việt Nam, toàn bộ trẻ em dưới 6 tuổi được Nhà nước **cấp thẻ BHYT hoàn toàn miễn phí** và được quỹ BHYT chi trả **100% chi phí khám chữa bệnh đúng tuyến**.
+- Khi đi khám bệnh, cha mẹ chỉ cần xuất trình thẻ BHYT (hoặc hình ảnh thẻ trên ứng dụng VNeID / VssID) kèm Giấy khai sinh của trẻ.
+
+### 4. Quyền lợi bảo vệ lao động nữ (Điều 137 BLLĐ 2019)
+- Doanh nghiệp không được sa thải hoặc đơn phương chấm dứt hợp đồng lao động vì lý do mang thai, nghỉ thai sản hoặc nuôi con dưới 12 tháng tuổi.
+- Lao động nữ nuôi con dưới 12 tháng tuổi được **nghỉ mỗi ngày 60 phút** trong giờ làm việc để cho con bú, vắt/trữ sữa, nghỉ ngơi mà vẫn được hưởng đủ tiền lương theo hợp đồng lao động.
+- Không được bố trí lao động nữ đang mang thai từ tháng thứ 7 (hoặc từ tháng thứ 6 nếu làm việc ở vùng sâu, vùng xa, hải đảo) hoặc đang nuôi con dưới 12 tháng tuổi làm việc ban đêm, làm thêm giờ và đi công tác xa.

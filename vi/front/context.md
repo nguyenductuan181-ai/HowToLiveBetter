@@ -1,49 +1,40 @@
-# Bối cảnh Trung Quốc và cách đọc cuốn sách này
+# Bối cảnh và cách ứng dụng cuốn sách tại Việt Nam
 
-## Cuốn sách nói về nước nào
+## Bối cảnh nguồn của cuốn sách
 
-Toàn bộ nội dung pháp luật, hành chính, bảo hiểm, y tế công, giáo dục và an sinh trong sách viết theo quy định hiện hành của Trung Quốc đại lục, chủ yếu trong giai đoạn 2024–2026. Tác giả là người viết cho độc giả Trung Quốc, dùng ví dụ, mức tiền và thủ tục của Trung Quốc.
+Phần lớn các dẫn chứng pháp lý, thủ tục hành chính, bảo hiểm y tế công và chính sách an sinh trong sách được tác giả ghi chép theo thực tế tại Trung Quốc đại lục trong giai đoạn 2024 - 2026. Tác giả sử dụng các trường hợp thực tế, mức tiền nhân dân tệ và cơ chế của địa phương đó.
 
-Điều đó có nghĩa:
+Vì vậy, bạn cần lưu ý:
+- Tên các cơ quan như Ủy ban Y tế quốc gia không đồng nhất với Bộ Y tế Việt Nam.
+- Mức trợ cấp sinh hoạt tối thiểu của các đô thị Trung Quốc không áp dụng cho Hà Nội hay Thành phố Hồ Chí Minh.
+- Các điều khoản hợp đồng lao động trong nguyên tác trích dẫn Luật Hợp đồng lao động Trung Quốc, không trích dẫn Bộ luật Lao động 2019 của Việt Nam.
+- Các đầu số tổng đài như 12315, 12345, 12356 là dịch vụ công nội địa của Trung Quốc. Tại Việt Nam, bạn sử dụng các đầu số 111, 113, 114, 115 hoặc Cổng Dịch vụ công Quốc gia.
 
-- Một mục nói «đến Ủy ban Y tế quốc gia khiếu nại» không có nghĩa là ở Việt Nam bạn đến Bộ Y tế.
-- Một mục nói «mức trợ cấp tối thiểu của thành phố» không áp dụng cho Hà Nội hay Thành phố Hồ Chí Minh.
-- Một mục nói «hợp đồng lao động phải có những điều khoản này» dẫn luật Trung Quốc, không dẫn Bộ luật Lao động Việt Nam.
-- Các tổng đài 12315 (khiếu nại tiêu dùng), 12345 (dịch vụ công), 12356 (hỗ trợ tâm lý), 12378 (khiếu nại bảo hiểm) là số của Trung Quốc.
+Để áp dụng hiệu quả vào đời sống, hãy xem mỗi mục là một **phương pháp luận tính toán chi phí và lợi ích**, sau đó đối chiếu với tài liệu **Sổ tay đối chiếu thực thi tại Việt Nam** (nằm ở phụ lục đầu tiên) và quy định pháp luật hiện hành của Việt Nam.
 
-Khi cần áp dụng vào Việt Nam, hãy coi mỗi mục là một **cách đặt vấn đề** và một **cách tính chi phí – lợi ích**, rồi tra quy định tương ứng của Việt Nam. Đừng suy ra rằng một quyền hoặc một khoản trợ cấp có ở Trung Quốc thì cũng có ở Việt Nam.
+## Giá trị thực tiễn cốt lõi
 
-## Vì sao vẫn đáng đọc
+Bỏ qua sự khác biệt về địa lý và tên gọi hành chính, giá trị bền vững của cuốn sách nằm ở những điểm mấu chốt:
+- Xác định những thói quen và can thiệp thực sự giúp giảm nguy cơ tử vong, đi kèm con số đo lường chính xác từ các nghiên cứu quốc tế.
+- Bóc trần những việc tốn kém tiền bạc và công sức nhưng mang lại hiệu quả rất thấp hoặc không có ý nghĩa lâm sàng.
+- Rèn luyện tư duy thực chứng qua số liệu: phân biệt tỷ số nguy cơ với xác suất thực tế, hiểu đúng khoảng tin cậy 95%, nhận biết sự khác nhau giữa nghiên cứu quan sát và thử nghiệm đối chứng ngẫu nhiên.
+- Trang bị kỹ năng tự bảo vệ trước các rủi ro phổ biến trong xã hội hiện đại: lừa đảo tài chính, thao túng tâm lý, tranh chấp lao động, tai nạn thương tích hoặc mất mát người thân.
 
-Phần lớn giá trị của cuốn sách không nằm ở số điện thoại hay tên cơ quan, mà ở chỗ:
+Những nguyên lý này có giá trị ứng dụng rộng rãi ở mọi môi trường sống, miễn là bạn nắm rõ phần quy chế thực thi của Việt Nam.
 
-- Chỉ ra việc gì thực sự làm giảm nguy cơ tử vong, và giảm bao nhiêu.
-- Chỉ ra việc gì chỉ có vẻ có lợi nhưng thực ra không đáng.
-- Dạy cách đọc một con số: tỷ số nguy cơ khác với xác suất trong một năm, khoảng tin cậy nói lên điều gì, nghiên cứu quan sát khác thử nghiệm ngẫu nhiên ở đâu.
-- Dạy cách tự bảo vệ mình trước những tình huống mà pháp luật nào cũng có: bị lừa, bị đòi nợ, bị vu khống, bị ép ký giấy, gặp tai nạn, mất người thân.
+## Cấu trúc của một mục
 
-Những phần này dùng được ở bất cứ đâu, miễn là bạn nhớ phần thủ tục cụ thể là của Trung Quốc.
+Mỗi mục trong sách gồm sáu thành phần:
+1. **Tiêu đề:** Lời khuyên hành động cụ thể, bắt đầu bằng động từ.
+2. **Chi phí:** Lượng hóa chi phí bằng tiền, thời gian, ý chí và sức lực cần bỏ ra.
+3. **Nói dễ hiểu:** Phần diễn giải cô đọng, giản lược ngôn từ thống kê để bạn nắm bắt ý chính trong vài giây.
+4. **Lợi ích:** Toàn bộ số liệu thực nghiệm gốc: tỷ lệ phần trăm thay đổi, tỷ số nguy cơ, khoảng tin cậy, quy mô mẫu và thời gian theo dõi.
+5. **Mức chứng cứ:** Xếp hạng A, B hoặc C theo độ vững chắc của bằng chứng khoa học. Các mục còn tranh cãi học thuật đều được ghi rõ.
+6. **Nguồn:** Trích dẫn các bài báo y khoa, báo cáo của Tổ chức Y tế Thế giới (WHO), cơ quan chuyên môn hoặc văn bản pháp luật gốc để độc giả tự tra cứu.
+7. **Ghi chú:** Những điều kiện biên, ngoại lệ, cảnh báo rủi ro hoặc chỉ dẫn quy chiếu riêng cho Việt Nam.
 
-## Cách đọc một mục
+## Tiền tệ và đơn vị đo lường
 
-Mỗi mục có sáu phần:
-
-1. **Tiêu đề** — một câu khuyên, thường bắt đầu bằng động từ. Đây là việc cần làm.
-2. **Chi phí** — phải bỏ ra bao nhiêu tiền, thời gian, sức lực; khó ở chỗ nào.
-3. **Nói dễ hiểu** — hai đến bốn câu diễn giải kết quả bằng lời thường, dành cho người không đọc thống kê. Phần này không thêm dữ kiện mới; mọi con số đều nằm ở mục «Lợi ích».
-4. **Lợi ích** — bằng chứng và con số gốc: giảm bao nhiêu phần trăm, tỷ số nguy cơ, khoảng tin cậy, cỡ mẫu, thời gian theo dõi.
-5. **Mức chứng cứ** — A, B hoặc C. Chữ A không có nghĩa là «chắc chắn đúng», mà là «có con số cụ thể và nguồn kiểm tra được». Mục nào ghi «còn tranh cãi» thì có bằng chứng ngược lại.
-6. **Nguồn** — bài báo khoa học, văn bản pháp luật hoặc báo cáo chính thức. Tên tài liệu tiếng Trung được giữ nguyên để đối chiếu.
-7. **Ghi chú** — điều kiện áp dụng, rủi ro, ngoại lệ, hoặc lời nhắc rằng nội dung chỉ đúng ở Trung Quốc.
-
-Các mục trong một chương không xếp theo mức độ quan trọng hay mức sinh lời. Muốn chọn việc đáng làm trước, hãy đọc phần «Nói dễ hiểu» và «Chi phí», rồi chọn những mục vừa rẻ, vừa nhanh, vừa hợp với hoàn cảnh của bạn.
-
-## Về tiền và đơn vị
-
-- Tiền trong sách là nhân dân tệ (tệ, CNY). Một tệ xấp xỉ vài nghìn đồng Việt Nam, nhưng tỷ giá thay đổi; đừng dùng con số trong sách để quy đổi chính xác.
-- «Tuổi» tính theo năm sinh, không theo tuổi âm.
-- Các mốc thời gian như «từ ngày 1 tháng 1 năm 2026» là mốc văn bản pháp luật Trung Quốc có hiệu lực.
-
-## Về dẫn chứng
-
-Tác giả chỉ dẫn bài báo khoa học gốc, báo cáo của Tổ chức Y tế Thế giới, CDC, Cục Thống kê và văn bản pháp luật. Một số ít vụ việc chỉ có báo chí đưa tin thì được ghi rõ là «chỉ có báo chí đưa tin», kèm liên kết lưu trữ. Bản dịch giữ nguyên các liên kết đó. Nếu một liên kết hỏng, hãy tìm theo tên bài báo hoặc DOI; đừng coi việc liên kết hỏng là bằng chứng rằng nghiên cứu không tồn tại.
+- Tiền tệ trong sách ghi bằng nhân dân tệ (CNY). Tỷ giá ngoại tệ luôn biến động theo thời gian, do đó các con số này mang tính chất tham khảo tương quan chi phí thay vì quy đổi tuyệt đối sang đồng Việt Nam.
+- Tuổi tác được tính chính xác theo năm sinh dương lịch, không tính theo tuổi mụ hay âm lịch.
+- Các mốc hiệu lực văn bản được ghi nhận theo thời điểm ban hành của tài liệu gốc.

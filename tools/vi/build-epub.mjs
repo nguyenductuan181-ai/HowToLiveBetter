@@ -26,6 +26,7 @@ const plain = html => html.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 // ---------- đọc sách ----------
 const bookFiles = readdirSync(resolve(VI, 'book')).filter(f => f.endsWith('.md')).sort();
 const DOC_ORDER = [
+  'so-tay-thuc-thi-viet-nam.md',
   'cuoi-co-dang-khong.md', 'danh-muc-do-dung-khan-cap-gia-dinh.md', 'gap-nguoi-la-bi-nan-co-nen-dung-lai.md',
   'lam-nen-tang-can-nhung-giay-phep-gi.md', 'nhip-dong-ho-sinh-hoc-va-ca-dem.md', 'bi-cat-giam-roi-lam-gi-truoc.md',
   'viec-can-lam-truoc-va-sau-khi-sinh-con.md', 'vua-chan-doan-benh-man-tinh.md', 'truoc-khi-doi-viec-doi-thanh-pho.md',

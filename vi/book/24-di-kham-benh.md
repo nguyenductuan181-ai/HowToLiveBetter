@@ -2,6 +2,14 @@
 
 # 24. Đi khám bệnh: sao cho ít tốn tiền ít đi đường vòng
 
+> **Ghi chú phân tuyến y tế và mức hưởng BHYT tại Việt Nam (Luật Bảo hiểm y tế & Nghị định 75/2023/NĐ-CP):**
+> - **Giấy tờ đi khám**: Sử dụng thẻ Căn cước công dân gắn chip hoặc xuất trình hình ảnh thẻ BHYT trên ứng dụng **VssID** hoặc **VNeID** (mức 2). Không cần mang thẻ BHYT giấy.
+> - **Thông tuyến huyện toàn quốc**: Bạn có thể đến khám ngoại trú và điều trị nội trú tại bất kỳ trạm y tế xã, trung tâm y tế hoặc bệnh viện tuyến huyện nào trên cả nước mà vẫn được hưởng **100% mức hưởng BHYT** (không cần giấy chuyển tuyến).
+> - **Thông tuyến tỉnh nội trú**: Nếu tự đi khám trái tuyến tại bệnh viện tuyến tỉnh, BHYT thanh toán **100% chi phí điều trị nội trú** theo mức hưởng. Nếu chỉ khám ngoại trú (không nhập viện) thì BHYT không chi trả chi phí khám ngoại trú trái tuyến tỉnh.
+> - **Bệnh viện tuyến Trung ương**: Tự đi khám ngoại trú trái tuyến BHYT không chi trả; điều trị nội trú trái tuyến BHYT chỉ thanh toán **40% chi phí điều trị nội trú**. Muốn được thanh toán 100% mức hưởng tại tuyến Trung ương bắt buộc phải có **Giấy chuyển tuyến hợp lệ** từ bệnh viện tuyến dưới.
+> - **Cấp cứu**: Bệnh nhân cấp cứu tại bất kỳ cơ sở y tế nào (tư nhân hoặc công lập) đều được hưởng chế độ đúng tuyến.
+> - **Chế độ 5 năm liên tục**: Người tham gia BHYT đủ 5 năm liên tục trở lên và có số tiền cùng chi trả chi phí khám chữa bệnh đúng tuyến trong năm vượt quá **06 tháng lương cơ sở** thì được quỹ BHYT chi trả 100% chi phí KCB cho các lần tiếp theo trong năm dương lịch.
+
 Phần này tính sổ bằng tiền và thời gian, và nói cách đi khám bệnh: khám ở bệnh viện nào trước, chuyển lên trên ra sao, tiền bớt được ở chỗ nào. Ngoài ra còn nói cấp cứu xếp hàng thế nào, và sau khi chữa xong vết thương nặng thì phải làm những giám định nào, làm những giấy tờ nào. Bạn được hưởng chế độ gì thì xem phần 7. Bệnh mạn tính quản lý lâu dài thế nào thì xem phần 16. Còn ngay tại chỗ xảy ra chuyện thì nên làm gì trước, xem phần 13.
 
 Phần này chủ yếu dựa theo «Một số biện pháp đẩy nhanh xây dựng hệ thống điều trị phân tuyến», do Văn phòng Quốc vụ viện ban hành tháng 4 năm 2026. Điều trị phân tuyến nghĩa là dựa vào bệnh nặng hay nhẹ để quyết định bạn nên đến bệnh viện cấp nào trước. Văn bản này gắn thẳng chuyện «xuống tuyến dưới» với chuyện «tiết kiệm tiền». Nhưng tốc độ triển khai ở mỗi nơi một khác, nên phần thân bài chỉ viết quy tắc ở cấp quốc gia. Cụ thể đến vùng quyết toán của bạn thì phải lấy cách nói của cơ quan bảo hiểm y tế và cơ quan y tế địa phương làm chuẩn. Vùng quyết toán là nơi bạn tham gia bảo hiểm y tế, thường là một thành phố.

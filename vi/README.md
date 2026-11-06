@@ -1,84 +1,54 @@
-# Cẩm nang sống đáng giá — bản tiếng Việt
+# Cẩm nang sống đáng giá: Ấn bản tiếng Việt
 
-Bản dịch tiếng Việt của 《高性价比人生指南》 (HowToLiveBetter), nguyên tác của **eternity4719**: <https://github.com/eternity4719/HowToLiveBetter>.
+Bản chuyển hóa và hiệu đính tiếng Việt của tác phẩm 《高性价比人生指南》 (HowToLiveBetter), nguyên tác của **eternity4719**: <https://github.com/eternity4719/HowToLiveBetter>.
 
-Kho mã nguồn, bản phát hành và nơi gửi báo lỗi của bản tiếng Việt: <https://github.com/thuongtin/HowToLiveBetter>.
+Kho lưu trữ và theo dõi phát triển ấn bản thích ứng Việt Nam: <https://github.com/nguyenductuan181-ai/HowToLiveBetter>.
 
-Ấn bản điện tử: **`dist/HowToLiveBetter-vi.epub`** (EPUB 3, reflowable, ngôn ngữ `vi`).
+Tệp sách điện tử hoàn chỉnh: **`dist/HowToLiveBetter-vi.epub`** (định dạng EPUB 3, reflowable, chuẩn ngôn ngữ `vi`).
 
-## Nội dung
+## Nội dung và quy mô
 
-- 34 chương, 772 mục lời khuyên.
-- Mỗi mục: tiêu đề (một lời khuyên), Chi phí, Nói dễ hiểu, Lợi ích, Mức chứng cứ, Nguồn, Ghi chú.
-- 9 bài dài (phụ lục) về hôn nhân, đồ dùng khẩn cấp, sơ cứu người lạ, giấy phép làm nền tảng, nhịp sinh học và ca đêm, mất việc, sinh con, bệnh mạn tính, đổi việc đổi thành phố.
-- Lời giới thiệu của bản dịch, ghi chú về bối cảnh Trung Quốc, bảng thuật ngữ.
+- 34 chương với 772 mục hành động định lượng.
+- Mỗi mục chuẩn hóa đầy đủ: tiêu đề hành động, Chi phí, Nói dễ hiểu, Lợi ích, Mức chứng cứ, Nguồn dẫn chứng, Ghi chú.
+- 10 bài chuyên khảo sâu (phụ lục) bao quát các thời khắc quyết định của đời người: sổ tay đối chiếu thực thi tại Việt Nam, hôn nhân, danh mục khẩn cấp, cứu người bị nạn, giấy phép nền tảng số, nhịp sinh học ca đêm, mất việc làm, sinh con, bệnh mạn tính, chuyển vùng sinh sống.
+- Lời giới thiệu, bối cảnh thực thi và bảng đối chiếu thuật ngữ.
 
-## Cấu trúc kho
+## Cấu trúc thư mục
 
 ```
 vi/
-  front/           lời giới thiệu, bối cảnh, bảng thuật ngữ, ấn bản
-  book/            34 chương tiếng Việt (nguồn của EPUB)
-  docs/            9 bài dài tiếng Việt
-  fonts/           Literata, Be Vietnam Pro, Cormorant Garamond (OFL 1.1)
-  source.json      commit nguyên tác, giấy phép, nguồn
-  manifest.json    bản đồ nguồn Trung → bản dịch, số mục, tình trạng
-  qa/              nhiệm vụ dịch, bản nháp, báo cáo, ảnh kiểm tra thị giác
+  front/           lời giới thiệu, bối cảnh, bảng thuật ngữ, thông tin ấn bản
+  book/            34 chương nội dung cốt lõi tiếng Việt
+  docs/            10 bài chuyên khảo sâu và sổ tay thực thi tại Việt Nam
+  fonts/           bộ phông chữ Literata, Be Vietnam Pro, Cormorant Garamond (OFL 1.1)
+  source.json      cam kết nguyên tác, giấy phép và siêu dữ liệu
+  manifest.json    bản đồ đối soát từ nguyên tác tiếng Trung sang bản dịch
+  qa/              dữ liệu kiểm định chất lượng, báo cáo đối chiếu
 tools/vi/
-  make-tasks.mjs        cắt nguyên tác thành lô dịch
-  check-out.mjs         kiểm tra một lô: số mục, trường, số, link, chữ Hán
-  merge.mjs             gộp bản dịch vào vi/book, ép lại Nguồn và cost tag
-  normalize-units.mjs   đổi «vạn / 亿» sang cách viết Việt Nam
-  normalize-terms.mjs   thống nhất «phần/mục», KTC, tên cơ quan
-  postmerge.mjs         gộp + chuẩn hóa + audit + manifest đúng thứ tự
-  merge-docs.mjs        gộp 9 bài dài đã kiểm tra
-  make-review-tasks.mjs sinh đề bài soát độc lập từng chương
-  audit.mjs             đối chiếu toàn bộ với nguyên tác
-  manifest.mjs          sinh vi/manifest.json
-  make-cover.mjs        dựng bìa 1600×2400
-  build-epub.mjs        dựng EPUB
-  render-qa.mjs         chụp ảnh các trang ở 3 khổ màn hình
-  check-links.mjs       kiểm tra liên kết nội bộ trong EPUB
+  build-epub.mjs        kịch bản đóng gói tệp EPUB tự động
+  make-cover.mjs        kịch bản tạo bìa sách tiêu chuẩn
+  check-content.mjs     kịch bản kiểm tra tính toàn vẹn của nội dung
+  audit.mjs             đối chiếu chi tiết số liệu với nguyên tác
 ```
 
-## Dựng lại
+## Dựng tệp EPUB
 
-Yêu cầu: Node.js ≥ 22, Java (để chạy EPUBCheck), Chrome/Chromium (để dựng bìa và chụp ảnh kiểm tra).
+Yêu cầu môi trường: Node.js phiên bản 20 trở lên.
 
 ```bash
 npm --prefix tools/vi ci
-node tools/vi/make-cover.mjs
-node tools/vi/build-epub.mjs              # → dist/HowToLiveBetter-vi.epub
-java -jar epubcheck.jar dist/HowToLiveBetter-vi.epub
-node tools/vi/audit.mjs
-node tools/vi/manifest.mjs
-```
-
-Quy trình dịch (chạy khi cần cập nhật theo nguyên tác mới):
-
-```bash
-node tools/vi/make-tasks.mjs     # sinh vi/qa/tasks/*.md
-# dịch từng lô vào vi/qa/out/*.md, kiểm tra bằng check-out.mjs
-node tools/vi/merge.mjs          # gộp chương đã đủ mục
-node tools/vi/normalize-units.mjs
-node tools/vi/audit.mjs
 node tools/vi/build-epub.mjs
 ```
 
-## Kiểm tra chất lượng
+Sau khi chạy xong, tệp sách điện tử xuất xưởng tại `dist/HowToLiveBetter-vi.epub`.
 
-- **Đối chiếu cấu trúc**: mỗi chương phải đủ số mục so với nguyên tác; mỗi mục đủ sáu trường và cost tag.
-- **Số liệu**: mọi con số trong nguyên tác phải xuất hiện trong bản dịch cùng mục (kể cả khoảng tin cậy, tỷ số, số điều luật). `audit.mjs` báo từng mục thiếu số.
-- **Dẫn chứng**: cột `Nguồn` được chép nguyên văn từ nguyên tác (giữ chữ Hán, URL, DOI, số hiệu văn bản) và được ép lại ở bước `merge.mjs`; không phụ thuộc vào việc người dịch chép tay.
-- **Chữ Hán**: ngoài cột `Nguồn`, thân bài không còn chữ Hán.
-- **Liên kết**: `check-links.mjs` kiểm tra mọi liên kết nội bộ và neo trong EPUB.
-- **EPUBCheck**: mục tiêu 0 lỗi, 0 cảnh báo.
-- **Thị giác**: `render-qa.mjs` chụp trang bìa, trang tiêu đề, mục lục, mở chương, một mục, phụ lục ở 620, 820 và 1100 px.
+## Tiêu chí chất lượng
+
+- **Bảo toàn số liệu:** Mọi chỉ số thống kê, khoảng tin cậy, tỷ số nguy cơ và mã số DOI nghiên cứu từ nguyên tác đều được bảo toàn.
+- **Bản địa hóa thực tế:** Các quy định mang tính hành chính đặc thù của Trung Quốc được chú thích rõ, đồng thời được quy chiếu trực tiếp sang pháp luật Việt Nam (Bộ luật Lao động 2019, Luật BHYT, Luật Hôn nhân & Gia đình) trong Sổ tay thực thi tại Việt Nam.
+- **Quy chuẩn hiển thị:** Tương thích tốt với các dòng máy đọc sách màn hình mực điện tử e-ink (Kindle, Boox, Kobo) nhờ độ tương phản cao và phông chữ tiếng Việt đầy đủ dấu thanh.
 
 ## Giấy phép và ghi công
 
-- Nguyên tác và bản dịch phát hành theo **CC BY 4.0**: <https://creativecommons.org/licenses/by/4.0/>.
-- Bản dịch kế thừa bản cộng đồng của **chuanman2707** (CC BY 4.0), sau đó được đối chiếu lại với nguyên tác tiếng Trung và dịch lại toàn bộ theo bản hiện hành.
-- Phông chữ theo SIL Open Font License 1.1; xem `fonts/`.
-
-Đây là ấn bản không chính thức, không liên kết với nhà xuất bản của bản tiếng Trung.
+- Nguyên tác và bản dịch phát hành theo giấy phép bản quyền mở **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+- Bản ấn bản kế thừa nền tảng của cộng đồng HowToLiveBetter-vi (chuanman2707, thuongtin), sau đó được hiệu đính và bổ sung tài liệu thực thi cho người Việt bởi Nguyen Duc Tuan.

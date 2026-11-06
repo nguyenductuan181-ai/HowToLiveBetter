@@ -2,6 +2,12 @@
 
 # 25. Người thân qua đời rồi phải làm những việc gì
 
+> **Ghi chú đối chiếu pháp lý và thủ tục tử tuất, thừa kế tại Việt Nam (Luật Hộ tịch 2014, Luật BHXH & BLDS 2015):**
+> - **Giấy báo tử**: Người mất tại bệnh viện do bệnh viện cấp; mất tại nhà do Trạm y tế xã/phường cấp; chết do tai nạn giao thông, án mạng hoặc nguyên nhân bất thường do Cơ quan Cảnh sát điều tra cấp sau khi hoàn tất thủ tục pháp y.
+> - **Đăng ký khai tử (Luật Hộ tịch 2014)**: Trong vòng **15 ngày** kể từ ngày người thân mất, gia đình thực hiện đăng ký khai tử tại UBND cấp xã nơi cư trú cuối cùng. Hiện đã có thủ tục **Liên thông trực tuyến 3 trong 1** trên Cổng Dịch vụ công Quốc gia (`dichvucong.gov.vn`): Đăng ký khai tử - Xóa đăng ký thường trú - Hưởng mai táng phí / tử tuất.
+> - **Trợ cấp mai táng của BHXH**: Thân nhân của người tham gia BHXH đủ điều kiện (đang đóng BHXH từ 12 tháng trở lên hoặc đang hưởng lương hưu) được nhận khoản **trợ cấp mai táng bằng 10 lần mức lương cơ sở** tại tháng người lao động mất. Ngoài ra còn có khoản trợ cấp tuất hằng tháng hoặc trợ cấp tuất một lần cho thân nhân thuộc diện phụ dưỡng.
+> - **Rút tiền tiết kiệm & Phân chia di sản thừa kế (BLDS 2015)**: Tiền gửi ngân hàng của người mất sẽ được phong tỏa ngay khi ngân hàng nhận thông tin. Để rút tiền tiết kiệm hoặc sang tên nhà đất, toàn bộ người thừa kế thuộc hàng thừa kế thứ nhất (cha mẹ đẻ, cha mẹ nuôi, vợ/chồng, con đẻ, con nuôi theo Điều 651 BLDS 2015) phải cùng đến Văn phòng công chứng lập **Văn bản thỏa thuận phân chia di sản thừa kế** (hoặc Khai nhận di sản) sau khi đã niêm yết công khai 15 ngày tại UBND cấp xã nơi cư trú.
+
 Phần này tính bằng tiền. Phần này chỉ nói thủ tục phải làm thế nào và tiền lấy về ra sao, gồm cả việc phải làm ngay khi người vừa mất và những khoản phí nào có danh mục để đối chiếu. Phần này cũng nói tiền trong những tài khoản nào thì rút về được, và việc gì thì người thân gần có quyền đứng ra làm. Năm mục đầu xếp theo thứ tự việc xảy ra, lần lượt là hiện trường, giấy chứng tử, thi thể và hỏa táng, có ý kiến khác về nguyên nhân chết thì làm gì, và xóa hộ khẩu. Những gì người già nên sắp xếp lúc còn sống, ví dụ giám hộ theo ý định, di chúc, tài khoản, xem phần 17. Ba khoản chế độ khi chết vì công việc xem phần 19.
 
 Phần tang lễ ở đây dựa theo Điều lệ Quản lý tang lễ bản mới, có hiệu lực từ ngày 30 tháng 3 năm 2026. Trợ cấp mai táng và trợ cấp cho người thân còn sống của bảo hiểm hưu trí được tính thế nào, xem mục 9 (số dư quỹ dự trữ nhà ở, chế độ bảo hiểm xã hội).

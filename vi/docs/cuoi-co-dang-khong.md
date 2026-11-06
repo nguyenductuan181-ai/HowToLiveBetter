@@ -125,6 +125,29 @@ Lấy số bình quân toàn quốc thành số của chính mình. Khoảng ch�
 
 Chỗ không có con số chính thức thì đừng lấy số dân gian ra điền. Sính lễ, hôn lễ, chi phí nuôi con đều không có thống kê chính thức, nên bài này để trống. Tự điền con số thật của mình thì chuẩn hơn trích dẫn ước tính của bất kỳ tổ chức nào.
 
+## V. Đối chiếu chế định hôn nhân và tài sản theo Luật Hôn nhân & Gia đình Việt Nam
+
+Nếu bạn đang cân nhắc kết hôn tại Việt Nam, các nguyên tắc pháp lý cốt lõi được quy định rõ tại Luật Hôn nhân và Gia đình 2014:
+
+### 1. Đăng ký kết hôn và điều kiện kết hôn (Điều 8, Điều 9)
+- **Độ tuổi kết hôn**: Nam từ đủ 20 tuổi trở lên, nữ từ đủ 18 tuổi trở lên.
+- **Thẩm quyền đăng ký**: Ủy ban nhân dân cấp xã nơi cư trú (thường trú hoặc tạm trú) của một trong hai bên. Có thể nộp hồ sơ đăng ký kết hôn trực tuyến qua Cổng Dịch vụ công Quốc gia. Hôn nhân chỉ có hiệu lực pháp luật khi được đăng ký tại cơ quan nhà nước có thẩm quyền; tổ chức đám cưới truyền thống mà không đăng ký thì pháp luật không công nhận quan hệ vợ chồng.
+
+### 2. Hai chế độ tài sản của vợ chồng (Luật Hôn nhân & Gia đình 2014)
+- **Chế độ tài sản theo thỏa thuận (Điều 47, Điều 48)**:
+  - Pháp luật Việt Nam cho phép hai bên thỏa thuận xác lập chế độ tài sản của vợ chồng **TRƯỚC KHI KẾT HÔN**.
+  - Thỏa thuận phải được lập thành văn bản có **công chứng hoặc chứng thực**. Thỏa thuận này có hiệu lực kể từ ngày đăng ký kết hôn. Đây là công cụ pháp lý minh bạch và văn minh nhất để bảo toàn tài sản cá nhân, phân định rành mạch nợ nần và tránh tranh chấp phức tạp về sau.
+- **Chế độ tài sản theo luật định (Điều 33, Điều 43)**:
+  - Nếu không có thỏa thuận trước, tài sản sẽ chia theo luật:
+  - **Tài sản riêng (Điều 43)**: Tài sản mà mỗi người có trước khi kết hôn; tài sản được thừa kế riêng, được tặng cho riêng trong thời kỳ hôn nhân; tài sản phục vụ nhu cầu thiết yếu của cá nhân.
+  - **Tài sản chung (Điều 33)**: Tài sản do vợ, chồng tạo ra, thu nhập do lao động, hoạt động sản xuất kinh doanh, hoa lợi, lợi tức phát sinh từ tài sản riêng và thu nhập hợp pháp khác trong thời kỳ hôn nhân. Tài sản không có chứng cứ chứng minh là tài sản riêng thì coi là tài sản chung.
+
+### 3. Thủ tục ly hôn tại Việt Nam
+- Việt Nam **không áp dụng thủ tục ly hôn hành chính** tại UBND (không có thời gian 30 ngày "làm nguội" như ở Trung Quốc) mà mọi vụ việc ly hôn đều thuộc thẩm quyền giải quyết của **Tòa án nhân dân**:
+  - **Thuận tình ly hôn (Điều 55)**: Hai bên cùng yêu cầu, đã thỏa thuận xong việc phân chia tài sản và việc trông nom, nuôi dưỡng con cái. Tòa án mở phiên hòa giải; nếu hòa giải không thành, Tòa ra quyết định công nhận thuận tình ly hôn (thời gian xử lý thường từ 1 đến 2 tháng).
+  - **Ly hôn theo yêu cầu của một bên / Đơn phương (Điều 56)**: Khi một bên có hành vi bạo lực gia đình hoặc vi phạm nghiêm trọng quyền, nghĩa vụ làm cho hôn nhân lâm vào tình trạng trầm trọng, mục đích hôn nhân không đạt được.
+- **Đặc quyền bảo vệ phụ nữ và trẻ nhỏ (Điều 51 khoản 3)**: Người chồng **không có quyền yêu cầu ly hôn** trong trường hợp người vợ đang có thai, sinh con hoặc đang nuôi con dưới 12 tháng tuổi. Ngược lại, người vợ vẫn có toàn quyền yêu cầu ly hôn trong giai đoạn này.
+
 ## Nguồn
 
 - Bộ Dân chính (2025). Công báo thống kê phát triển sự nghiệp dân chính năm 2024 (mục 5, ý (2), điểm 1: dịch vụ đăng ký hôn nhân; chú thích 5). <https://www.mca.gov.cn/n1288/n1294/n1554/c1662004999980006190/content.html> (PDF: <https://www.mca.gov.cn/gdnps/n2445/n2451/n2458/n2681/c1662004999980006189/attr/400985.pdf>)

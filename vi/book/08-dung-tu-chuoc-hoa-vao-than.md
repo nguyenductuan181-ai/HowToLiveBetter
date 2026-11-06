@@ -2,6 +2,13 @@
 
 # 8. Đừng tự chuốc họa vào thân: pháp luật và an toàn tài sản
 
+> **Ghi chú đối chiếu pháp lý thực tế tại Việt Nam:**
+> - Tai nạn giao thông & bỏ trốn: Điều 260 Bộ luật Hình sự 2015 quy định hành vi bỏ chạy để trốn tránh trách nhiệm hoặc cố ý không cứu giúp người bị nạn là tình tiết tăng nặng định khung, phạt tù từ 03 đến 10 năm. Bảo hiểm bắt buộc TNDS chủ xe cơ giới không bồi thường cho lái xe bỏ chạy sau tai nạn.
+> - Lừa đảo trực tuyến & phong tỏa tài khoản: Lập tức gọi hotline ngân hàng yêu cầu khóa khẩn cấp tài khoản/thẻ, gọi **156** hoặc gửi cảnh báo lên `canhbao.ncsc.gov.vn`. Trình báo ngay Cơ quan Cảnh sát điều tra (Công an cấp quận/huyện) để ban hành lệnh phong tỏa tài khoản thụ hưởng theo Bộ luật Tố tụng hình sự.
+> - Cho vay tiền và lãi suất: Điều 468 Bộ luật Dân sự 2015 khống chế mức lãi suất vay không được vượt quá **20%/năm**. Cho vay với mức lãi suất gấp 5 lần mức trần trở lên kèm thu lợi bất chính cấu thành Tội cho vay lãi nặng trong giao dịch dân sự (Điều 201 BLHS 2015). Luật Đầu tư 2020 nghiêm cấm hoạt động dịch vụ đòi nợ thuê.
+> - Tố cáo vu khống: Điều 156 Bộ luật Hình sự 2015 (Tội vu khống), bịa đặt hoặc loan truyền những điều biết rõ là sai sự thật nhằm xúc phạm nghiêm trọng nhân phẩm, danh dự hoặc gây thiệt hại đến quyền, lợi ích hợp pháp của người khác có thể bị phạt tù đến 07 năm.
+> - Tra cứu văn bản pháp luật chính thức: Cổng Cơ sở dữ liệu quốc gia về pháp luật (`vbpl.vn`) của Bộ Tư pháp. Trợ giúp pháp lý miễn phí qua Trung tâm Trợ giúp pháp lý nhà nước thuộc Sở Tư pháp các tỉnh/thành phố.
+
 Phần này tính bằng tiền và bằng tự do thân thể, không quy đổi ra tuổi thọ. Nội dung gồm ba việc: pháp luật buộc bạn chịu trách nhiệm gì, làm đúng theo đó thì bớt phải đền bao nhiêu tiền, và khi có chuyện thì bạn có những quyền gì về thủ tục. Số điều khoản đều đã đối chiếu với nguyên văn chính thức.
 
 Các mục trong phần này chia theo chủ đề thành mấy khối dưới đây, số trong ngoặc là số mục.
