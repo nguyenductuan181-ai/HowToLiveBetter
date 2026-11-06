@@ -1,21 +1,35 @@
-# Lời giới thiệu của ấn bản tiếng Việt
+# Lời giới thiệu: Nắm giữ chủ quyền cuộc đời bằng sự hiểu biết thực chứng
 
-Cuốn sách này bàn về những quyết định hằng ngày mà ai trong đời cũng phải đối mặt: có nên tiêm một loại vaccine nào đó, khi bị công ty giữ lương thì xử lý ra sao, mua bảo hiểm gì cho đỡ phí, ký hợp đồng thuê nhà cần lưu ý điều khoản nào, và lúc cha mẹ già yếu thì chuẩn bị những gì. Mỗi mục trong sách đều lượng hóa rõ ràng: bạn phải bỏ ra bao nhiêu tiền bạc, thời gian cùng sức lực, đổi lại được bao nhiêu tuổi thọ, tài sản và sự tự do, đi kèm mức độ xác tín khoa học cụ thể.
+Cuộc sống không phải là một chuỗi lo âu hay sự phó mặc cho số phận. Mỗi con người sinh ra đều mang trong mình quyền năng tự quyết, quyền được sống khỏe mạnh, đĩnh đạc, tự do và trường thọ. Nhưng trong một thế giới ngập tràn thông tin nhiễu loạn, định kiến và nỗi sợ, chúng ta rất dễ đánh mất năng lượng sống vào những điều vô nghĩa: mua những thứ không cần thiết, lo sợ những thứ không có thật, và kiệt sức trước những cạm bẫy pháp lý hay tài chính chỉ vì thiếu một cái nhìn sáng suốt.
 
-Nguyên tác được tác giả eternity4719 viết cho bạn đọc tại Trung Quốc đại lục. Do đó, sách chứa các danh xưng hành chính, số điện thoại dịch vụ công như 12315, 12345, các thuật ngữ như bảo hiểm y tế cơ bản, hộ khẩu, hay cơ chế trọng tài lao động bản địa.
+Cuốn sách này được biên soạn không phải để dạy bạn cách sợ hãi thế giới, mà là để **thắp sáng sự minh triết thực chứng** trong từng quyết định thường nhật. 
 
-Trong ấn bản này, chúng tôi giữ trọn vẹn giá trị cốt lõi về tư duy tính toán chi phí và lợi ích của nguyên tác, đồng thời biên tập lại câu chữ bằng văn phong tự nhiên, đầm chắc của tiếng Việt. Để giúp bạn đọc ứng dụng ngay vào thực tế mà không bị bỡ ngỡ trước sự khác biệt thể chế, chúng tôi bổ sung riêng tài liệu **Sổ tay đối chiếu thực thi tại Việt Nam** (đặt ở phần phụ lục mở đầu). Bạn có thể tra cứu nhanh các quy định tương đương của pháp luật Việt Nam: từ Bộ luật Lao động 2019, Luật Bảo hiểm y tế, Luật Hôn nhân và Gia đình, đến các số điện thoại khẩn cấp quốc gia 111, 113, 114, 115 và cổng dịch vụ công trực tuyến.
+Ở đây, mọi sự việc đều được đưa về bản chất nguyên thủy:
+- Bạn đầu tư bao nhiêu thời gian, tâm sức và tài chính?
+- Đổi lại được bao nhiêu sinh lực, sự bình an, tuổi thọ và phẩm giá tự do?
+- Đâu là chân lý khoa học đã được chứng thực qua hàng trăm nghìn mẫu nghiên cứu, và đâu chỉ là những ảo tưởng tiếp thị ru ngủ đám đông?
 
-## Tiêu chí biên tập và chuyển hóa
+Gần 800 mục hành động trong cuốn cẩm nang này là những **cột mốc năng lượng rõ ràng**. Chúng giúp bạn giải phóng 99% âu lo vụn vặt, thiết lập kỷ luật sống đĩnh đạc và làm chủ hoàn toàn thân - tâm - trí cùng tài sản của chính mình.
 
-- **Trung thực với số liệu và bằng chứng:** Mọi con số thống kê, tỷ số nguy cơ, khoảng tin cậy 95%, cỡ mẫu nghiên cứu, mã số văn bản, đường dẫn và chỉ số DOI được giữ nguyên vẹn. Khoa học thực nghiệm cần sự chính xác tuyệt đối, không làm tròn tùy tiện.
-- **Văn phong tự nhiên, mạch lạc:** Từng câu chữ được gọt giũa để thoát khỏi cấu trúc ngữ pháp ngoại lai. Câu văn đi thẳng vào việc, giữ nhịp điệu đĩnh đạc, loại bỏ lối nói sáo rỗng hoặc máy móc.
-- **Quy chiếu thực tế cho người Việt:** Những nội dung mang tính quy định riêng của Trung Quốc được đánh dấu rõ ràng, đi kèm bản đồ quy chiếu tương ứng tại Việt Nam để người đọc áp dụng an toàn và đúng luật.
+---
 
-## Chất lượng và đóng góp
+## Từ nguyên tác đến bản chuyển hóa Việt Nam: Khai mở năng lực tự chủ
 
-Một công trình đồ sộ với gần 800 mục nghiên cứu luôn cần sự chung tay bồi đắp của cộng đồng. Nếu bạn phát hiện một con số cần đính chính hoặc một quy định pháp luật vừa thay đổi, xin gửi đóng góp về kho mã nguồn: <https://github.com/nguyenductuan181-ai/HowToLiveBetter>.
+Nguyên tác của tác giả *eternity4719* bắt nguồn từ bối cảnh Trung Quốc đại lục. Những quy định hành chính, số điện thoại hay thể chế pháp lý nơi đó là chiếc áo của một địa phương, nhưng **nguyên lý bảo tồn năng lượng sống và quy luật số liệu** là tài sản chung của nhân loại.
 
-## Lời nhắc quan trọng
+Trong ấn bản tiếng Việt này, chúng tôi nâng cấp toàn diện trải nghiệm đọc:
+1. **Truyền tải dòng chảy năng lượng cao và tích cực:** Ngôn từ được tinh lọc sắc bén, đầm chắc, loại bỏ hoàn toàn giọng điệu thụ động, bi quan hay sáo rỗng. Đọc để hành động, đọc để vững tâm, đọc để làm chủ.
+2. **Bảo tồn tính chân thực khoa học tuyệt đối:** Toàn bộ số liệu thực nghiệm, tỷ số nguy cơ (RR, HR), khoảng tin cậy 95%, quy mô mẫu và mã định danh DOI quốc tế được giữ nguyên vẹn. Sự thật là nguồn năng lượng tối thượng; sự chuẩn xác là nền tảng của lòng tin.
+3. **Bản đồ thực thi sáng rõ tại Việt Nam:** Chúng tôi xây dựng riêng **Sổ tay đối chiếu thực thi tại Việt Nam** (đặt ngay đầu sách) và các ghi chú định hướng ở từng chương nhạy cảm. Từ Bộ luật Lao động, Luật Bảo hiểm y tế, Luật Hôn nhân & Gia đình đến các đầu số khẩn cấp quốc gia (111, 113, 114, 115, 156), bạn nắm trọn trong tay công cụ pháp lý để tự bảo vệ mình và gia đình một cách đàng hoàng, tự tin nhất.
 
-Các nội dung trong sách không thay thế cho lời khuyên y khoa cá nhân hóa, tư vấn pháp lý chuyên sâu hay khuyến nghị đầu tư tài chính. Đây là bản danh mục đối chiếu chi phí và hiệu quả để bạn tham khảo khi đưa ra quyết định. Trước những bước ngoặt lớn về sức khỏe, pháp luật hay tài sản, hãy luôn tham vấn ý kiến của bác sĩ, luật sư và cơ quan có thẩm quyền tại nơi bạn sinh sống.
+---
+
+## Tinh thần tiếp nhận: Thấu suốt để tự do
+
+Trí tuệ thực chứng không phải là công thức giáo điều. Cuốn sách là một tấm la bàn tỉnh thức để bạn soi chiếu vào hoàn cảnh sống của chính mình. 
+
+Khi bạn hiểu rõ cơ chế vận hành của cơ thể, nắm vững luật chơi của xã hội và giữ được tâm trí trong sáng trước những biến động, bạn không còn là nạn nhân của hoàn cảnh. Bạn trở thành người kiến tạo và dẫn dắt chính cuộc đời mình.
+
+Chúc bạn luôn tràn đầy sinh lực, tâm thế vững vàng và bước đi tự do trên hành trình sống đáng giá!
+
+*(Kho mã nguồn mở phục vụ cộng đồng: <https://github.com/nguyenductuan181-ai/HowToLiveBetter>)*
